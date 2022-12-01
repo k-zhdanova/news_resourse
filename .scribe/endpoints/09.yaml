@@ -1,0 +1,360 @@
+name: Feedbacks
+description: |-
+
+  API для работы с отзывами.
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/feedbacks
+    metadata:
+      title: 'List of feedbacks'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters:
+      page:
+        name: page
+        description: 'Номер страницы с результатами выдачи'
+        required: false
+        example: sunt
+        type: string
+        custom: []
+      sort:
+        name: sort
+        description: 'Поле для сортировки. По-умолчанию  ''id\|desc'''
+        required: false
+        example: quo
+        type: string
+        custom: []
+      search:
+        name: search
+        description: 'Строка, которая должна содержаться в результатах выдачи'
+        required: false
+        example: rerum
+        type: string
+        custom: []
+      user_id:
+        name: user_id
+        description: 'ID пользователя'
+        required: false
+        example: illum
+        type: string
+        custom: []
+    bodyParameters:
+      status:
+        name: status
+        description: 'Must be one of <code>1</code>, <code>2</code>, or <code>3</code>.'
+        required: false
+        example: '3'
+        type: string
+        custom: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/feedback/{id}'
+    metadata:
+      title: 'Get specified feedback'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the feedback.'
+        required: true
+        example: 20
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      status:
+        name: status
+        description: 'Must be one of <code>1</code>, <code>2</code>, or <code>3</code>.'
+        required: false
+        example: '3'
+        type: string
+        custom: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PUT
+    uri: 'api/v1/feedback/{id}'
+    metadata:
+      title: 'Update specified feedback'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the feedback.'
+        required: true
+        example: 19
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      status:
+        name: status
+        description: 'int (1 - очікує відповіді,2 - дана відповідь,3 - відхилено)'
+        required: false
+        example: unde
+        type: required
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/web/feedbacks
+    metadata:
+      title: 'List of feedbacks'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters:
+      page:
+        name: page
+        description: 'Номер страницы с результатами выдачи'
+        required: false
+        example: est
+        type: string
+        custom: []
+      sort:
+        name: sort
+        description: 'Поле для сортировки. По-умолчанию  ''id\|desc'''
+        required: false
+        example: dolorum
+        type: string
+        custom: []
+      search:
+        name: search
+        description: 'Строка, которая должна содержаться в результатах выдачи'
+        required: false
+        example: suscipit
+        type: string
+        custom: []
+      user_id:
+        name: user_id
+        description: 'ID пользователя'
+        required: false
+        example: distinctio
+        type: string
+        custom: []
+    bodyParameters:
+      status:
+        name: status
+        description: 'Must be one of <code>1</code>, <code>2</code>, or <code>3</code>.'
+        required: false
+        example: '1'
+        type: string
+        custom: []
+    responses:
+      -
+        status: 200
+        content: '{"current_page":1,"data":[],"first_page_url":"http:\/\/api.cnap.test\/api\/v1\/web\/feedbacks?page=1","from":null,"last_page":1,"last_page_url":"http:\/\/api.cnap.test\/api\/v1\/web\/feedbacks?page=1","links":[{"url":null,"label":"&laquo; \u041d\u0430\u0437\u0430\u0434","active":false},{"url":"http:\/\/api.cnap.test\/api\/v1\/web\/feedbacks?page=1","label":"1","active":true},{"url":null,"label":"\u0414\u0430\u043b\u0456 &raquo;","active":false}],"next_page_url":null,"path":"http:\/\/api.cnap.test\/api\/v1\/web\/feedbacks","per_page":15,"prev_page_url":null,"to":null,"total":0}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '31'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/web/feedback
+    metadata:
+      title: 'Create feedback'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters:
+      status:
+        name: status
+        description: 'Must be one of <code>1</code>, <code>2</code>, or <code>3</code>.'
+        required: false
+        example: '1'
+        type: string
+        custom: []
+      name:
+        name: name
+        description: 'ID устройсва'
+        required: false
+        example: exercitationem
+        type: required
+        custom: []
+      email:
+        name: email
+        description: 'ID категории'
+        required: false
+        example: consequatur
+        type: required
+        custom: []
+      text:
+        name: text
+        description: 'string Описание, текст заявки'
+        required: false
+        example: quaerat
+        type: required
+        custom: []
+      date:
+        name: date
+        description: 'string Дата обращения'
+        required: false
+        example: maxime
+        type: required
+        custom: []
+      sex:
+        name: sex
+        description: 'string Пол (male, female)'
+        required: false
+        example: libero
+        type: required
+        custom: []
+      age:
+        name: age
+        description: 'int Возраст'
+        required: false
+        example: magnam
+        type: required
+        custom: []
+      service_id:
+        name: service_id
+        description: 'ID услуги'
+        required: false
+        example: quibusdam
+        type: required
+        custom: []
+      is_satisfied:
+        name: is_satisfied
+        description: 'int Удовлетворенность работой ЦНАП (1, 2, 3, 4, 5)'
+        required: false
+        example: expedita
+        type: required
+        custom: []
+      reception_friendly:
+        name: reception_friendly
+        description: 'int Ресепшн, приветливость (1, 2, 3, 4, 5)'
+        required: false
+        example: consectetur
+        type: required
+        custom: []
+      reception_competent:
+        name: reception_competent
+        description: 'int Ресепшн, компетентность (1, 2, 3, 4, 5)'
+        required: false
+        example: sit
+        type: required
+        custom: []
+      center_friendly:
+        name: center_friendly
+        description: 'int Специалист, приветливость (1, 2, 3, 4, 5)'
+        required: false
+        example: et
+        type: required
+        custom: []
+      center_competent:
+        name: center_competent
+        description: 'int Специалист, компетентность (1, 2, 3, 4, 5)'
+        required: false
+        example: sit
+        type: required
+        custom: []
+      wesite:
+        name: wesite
+        description: 'int Оценка веб-сайта (1, 2, 3, 4, 5)'
+        required: false
+        example: doloribus
+        type: required
+        custom: []
+      impression:
+        name: impression
+        description: 'int Общее впечатление (1, 2, 3, 4, 5)'
+        required: false
+        example: maxime
+        type: required
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/web/feedback/{id}'
+    metadata:
+      title: 'Get specified feedback'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the feedback.'
+        required: true
+        example: 20
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      status:
+        name: status
+        description: 'Must be one of <code>1</code>, <code>2</code>, or <code>3</code>.'
+        required: false
+        example: '1'
+        type: string
+        custom: []
+    responses:
+      -
+        status: 404
+        content: '{"status":"error","message":"Not found."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '30'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []

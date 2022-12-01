@@ -1,0 +1,335 @@
+name: Users
+description: |-
+
+  API для работы с пользователями админ панели
+endpoints:
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/token
+    metadata:
+      title: 'Get token for user'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters:
+      email:
+        name: email
+        description: Email
+        required: true
+        example: omnis
+        type: string
+        custom: []
+      password:
+        name: password
+        description: Пароль
+        required: true
+        example: eveniet
+        type: string
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/login
+    metadata:
+      title: 'Login user'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters:
+      email:
+        name: email
+        description: Email
+        required: false
+        example: iure
+        type: string
+        custom: []
+      password:
+        name: password
+        description: Пароль
+        required: false
+        example: ut
+        type: string
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/users
+    metadata:
+      title: 'List of users'
+      description: ''
+      authenticated: true
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters:
+      page:
+        name: page
+        description: 'Номер страницы с результатами выдачи'
+        required: false
+        example: 5
+        type: integer
+        custom: []
+      sort:
+        name: sort
+        description: 'Поле для сортировки. По-умолчанию ''id|desc'''
+        required: false
+        example: incidunt
+        type: string
+        custom: []
+      search:
+        name: search
+        description: 'Строка, которая должна содержаться в результатах выдачи'
+        required: false
+        example: in
+        type: string
+        custom: []
+      role_id:
+        name: role_id
+        description: 'IDs ролей пользователей через запятую (для получения списка пользователей по роли)'
+        required: false
+        example: voluptate
+        type: string
+        custom: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/v1/user
+    metadata:
+      title: 'Create a user'
+      description: ''
+      authenticated: true
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters:
+      firstname:
+        name: firstname
+        description: Имя
+        required: true
+        example: laudantium
+        type: string
+        custom: []
+      lastname:
+        name: lastname
+        description: Фамилия
+        required: true
+        example: enim
+        type: string
+        custom: []
+      email:
+        name: email
+        description: Email
+        required: true
+        example: est
+        type: string
+        custom: []
+      password:
+        name: password
+        description: Пароль
+        required: true
+        example: beatae
+        type: string
+        custom: []
+      password_confirmation:
+        name: password_confirmation
+        description: 'Пароль підтвердження'
+        required: true
+        example: et
+        type: string
+        custom: []
+      role_id:
+        name: role_id
+        description: 'optional Массив IDs ролей пользователей'
+        required: false
+        example:
+          - 2
+        type: 'integer[]'
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/user
+    metadata:
+      title: 'Get specified user'
+      description: ''
+      authenticated: true
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: ''
+        required: true
+        example: 7
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/v1/user/{id}'
+    metadata:
+      title: 'Get specified user'
+      description: ''
+      authenticated: true
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: ''
+        required: true
+        example: 13
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PUT
+    uri: 'api/v1/user/{id}'
+    metadata:
+      title: 'Update specified user'
+      description: ''
+      authenticated: true
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: ''
+        required: true
+        example: 14
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      firstname:
+        name: firstname
+        description: Имя
+        required: false
+        example: possimus
+        type: string
+        custom: []
+      lastname:
+        name: lastname
+        description: Фамилия
+        required: false
+        example: iure
+        type: string
+        custom: []
+      email:
+        name: email
+        description: Email
+        required: false
+        example: autem
+        type: string
+        custom: []
+      password:
+        name: password
+        description: Пароль
+        required: false
+        example: modi
+        type: string
+        custom: []
+      password_confirmation:
+        name: password_confirmation
+        description: 'Пароль підтвердження'
+        required: true
+        example: minima
+        type: string
+        custom: []
+      role_id:
+        name: role_id
+        description: 'Массив IDs ролей пользователей'
+        required: false
+        example:
+          - 13
+        type: 'integer[]'
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/v1/user/{id}'
+    metadata:
+      title: 'Delete specified user'
+      description: ''
+      authenticated: true
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: ''
+        required: true
+        example: 15
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []

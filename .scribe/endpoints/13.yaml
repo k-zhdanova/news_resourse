@@ -1,0 +1,30 @@
+name: Modules
+description: |-
+
+  API для работы с разделами админ панели
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/v1/modules
+    metadata:
+      title: 'List of modules'
+      description: ''
+      authenticated: true
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []

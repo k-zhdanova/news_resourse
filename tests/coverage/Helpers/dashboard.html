@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for W:\domains\API\app\Helpers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">W:\domains\API\app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Helpers</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FineDiffHelper.php.html#12">App\Helpers\FineDiffDeleteOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#40">App\Helpers\FineDiffInsertOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#73">App\Helpers\FineDiffReplaceOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#117">App\Helpers\FineDiffCopyOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#156">App\Helpers\FineDiffOps</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#183">App\Helpers\FineDiffHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImageHelper.php.html#10">App\Helpers\ImageHelper</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FineDiffHelper.php.html#183">App\Helpers\FineDiffHelper</a></td><td class="text-right">6006</td></tr>
+       <tr><td><a href="ImageHelper.php.html#10">App\Helpers\ImageHelper</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#73">App\Helpers\FineDiffReplaceOp</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#40">App\Helpers\FineDiffInsertOp</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#117">App\Helpers\FineDiffCopyOp</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#12">App\Helpers\FineDiffDeleteOp</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#156">App\Helpers\FineDiffOps</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FineDiffHelper.php.html#15"><abbr title="App\Helpers\FineDiffDeleteOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#20"><abbr title="App\Helpers\FineDiffDeleteOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#25"><abbr title="App\Helpers\FineDiffDeleteOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#30"><abbr title="App\Helpers\FineDiffDeleteOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#43"><abbr title="App\Helpers\FineDiffInsertOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#48"><abbr title="App\Helpers\FineDiffInsertOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#53"><abbr title="App\Helpers\FineDiffInsertOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#58"><abbr title="App\Helpers\FineDiffInsertOp::getText">getText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#63"><abbr title="App\Helpers\FineDiffInsertOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#76"><abbr title="App\Helpers\FineDiffReplaceOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#82"><abbr title="App\Helpers\FineDiffReplaceOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#87"><abbr title="App\Helpers\FineDiffReplaceOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#92"><abbr title="App\Helpers\FineDiffReplaceOp::getText">getText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#97"><abbr title="App\Helpers\FineDiffReplaceOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#120"><abbr title="App\Helpers\FineDiffCopyOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#125"><abbr title="App\Helpers\FineDiffCopyOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#130"><abbr title="App\Helpers\FineDiffCopyOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#135"><abbr title="App\Helpers\FineDiffCopyOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#144"><abbr title="App\Helpers\FineDiffCopyOp::increase">increase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#158"><abbr title="App\Helpers\FineDiffOps::appendOpcode">appendOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#199"><abbr title="App\Helpers\FineDiffHelper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#208"><abbr title="App\Helpers\FineDiffHelper::getOps">getOps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#213"><abbr title="App\Helpers\FineDiffHelper::getOpcodes">getOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#222"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTML">renderDiffToHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#255"><abbr title="App\Helpers\FineDiffHelper::getDiffOpcodes">getDiffOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#264"><abbr title="App\Helpers\FineDiffHelper::getDiffOpsFromOpcodes">getDiffOpsFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#274"><abbr title="App\Helpers\FineDiffHelper::renderToTextFromOpcodes">renderToTextFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#284"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTMLFromOpcodes">renderDiffToHTMLFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#295"><abbr title="App\Helpers\FineDiffHelper::renderFromOpcodes">renderFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#377"><abbr title="App\Helpers\FineDiffHelper::doDiff">doDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#398"><abbr title="App\Helpers\FineDiffHelper::_processGranularity">_processGranularity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#437"><abbr title="App\Helpers\FineDiffHelper::doFragmentDiff">doFragmentDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#602"><abbr title="App\Helpers\FineDiffHelper::doCharDiff">doCharDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#694"><abbr title="App\Helpers\FineDiffHelper::extractFragments">extractFragments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#725"><abbr title="App\Helpers\FineDiffHelper::renderToTextFromOpcode">renderToTextFromOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#733"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTMLFromOpcode">renderDiffToHTMLFromOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImageHelper.php.html#12"><abbr title="App\Helpers\ImageHelper::create_image_from_base64">create_image_from_base64</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImageHelper.php.html#72"><abbr title="App\Helpers\ImageHelper::create_image_from_url">create_image_from_url</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImageHelper.php.html#106"><abbr title="App\Helpers\ImageHelper::remove_image">remove_image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImageHelper.php.html#113"><abbr title="App\Helpers\ImageHelper::copy_image">copy_image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImageHelper.php.html#126"><abbr title="App\Helpers\ImageHelper::create_image_from_post">create_image_from_post</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FineDiffHelper.php.html#437"><abbr title="App\Helpers\FineDiffHelper::doFragmentDiff">doFragmentDiff</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#602"><abbr title="App\Helpers\FineDiffHelper::doCharDiff">doCharDiff</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="ImageHelper.php.html#12"><abbr title="App\Helpers\ImageHelper::create_image_from_base64">create_image_from_base64</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="ImageHelper.php.html#126"><abbr title="App\Helpers\ImageHelper::create_image_from_post">create_image_from_post</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#295"><abbr title="App\Helpers\FineDiffHelper::renderFromOpcodes">renderFromOpcodes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#398"><abbr title="App\Helpers\FineDiffHelper::_processGranularity">_processGranularity</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#222"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTML">renderDiffToHTML</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ImageHelper.php.html#72"><abbr title="App\Helpers\ImageHelper::create_image_from_url">create_image_from_url</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#694"><abbr title="App\Helpers\FineDiffHelper::extractFragments">extractFragments</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#733"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTMLFromOpcode">renderDiffToHTMLFromOpcode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#97"><abbr title="App\Helpers\FineDiffReplaceOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#158"><abbr title="App\Helpers\FineDiffOps::appendOpcode">appendOpcode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#725"><abbr title="App\Helpers\FineDiffHelper::renderToTextFromOpcode">renderToTextFromOpcode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#30"><abbr title="App\Helpers\FineDiffDeleteOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#63"><abbr title="App\Helpers\FineDiffInsertOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#135"><abbr title="App\Helpers\FineDiffCopyOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#199"><abbr title="App\Helpers\FineDiffHelper::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#213"><abbr title="App\Helpers\FineDiffHelper::getOpcodes">getOpcodes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FineDiffHelper.php.html#377"><abbr title="App\Helpers\FineDiffHelper::doDiff">doDiff</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.10</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.14</a> and <a href="https://phpunit.de/">PHPUnit 9.5.13</a> at Wed Feb 23 15:51:02 UTC 2022.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([41,0,0,0,0,0,0,0,0,0,0,3], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"FineDiffHelper.php.html#5\">App\\Helpers\\FineDiffOp<\/a>"],[0,5,"<a href=\"FineDiffHelper.php.html#12\">App\\Helpers\\FineDiffDeleteOp<\/a>"],[0,6,"<a href=\"FineDiffHelper.php.html#40\">App\\Helpers\\FineDiffInsertOp<\/a>"],[0,7,"<a href=\"FineDiffHelper.php.html#73\">App\\Helpers\\FineDiffReplaceOp<\/a>"],[0,6,"<a href=\"FineDiffHelper.php.html#117\">App\\Helpers\\FineDiffCopyOp<\/a>"],[0,3,"<a href=\"FineDiffHelper.php.html#156\">App\\Helpers\\FineDiffOps<\/a>"],[0,77,"<a href=\"FineDiffHelper.php.html#183\">App\\Helpers\\FineDiffHelper<\/a>"],[0,23,"<a href=\"ImageHelper.php.html#10\">App\\Helpers\\ImageHelper<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"FineDiffHelper.php.html#7\">App\\Helpers\\FineDiffOp::getFromLen<\/a>"],[100,0,"<a href=\"FineDiffHelper.php.html#8\">App\\Helpers\\FineDiffOp::getToLen<\/a>"],[100,0,"<a href=\"FineDiffHelper.php.html#9\">App\\Helpers\\FineDiffOp::getOpcode<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#15\">App\\Helpers\\FineDiffDeleteOp::__construct<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#20\">App\\Helpers\\FineDiffDeleteOp::getFromLen<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#25\">App\\Helpers\\FineDiffDeleteOp::getToLen<\/a>"],[0,2,"<a href=\"FineDiffHelper.php.html#30\">App\\Helpers\\FineDiffDeleteOp::getOpcode<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#43\">App\\Helpers\\FineDiffInsertOp::__construct<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#48\">App\\Helpers\\FineDiffInsertOp::getFromLen<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#53\">App\\Helpers\\FineDiffInsertOp::getToLen<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#58\">App\\Helpers\\FineDiffInsertOp::getText<\/a>"],[0,2,"<a href=\"FineDiffHelper.php.html#63\">App\\Helpers\\FineDiffInsertOp::getOpcode<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#76\">App\\Helpers\\FineDiffReplaceOp::__construct<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#82\">App\\Helpers\\FineDiffReplaceOp::getFromLen<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#87\">App\\Helpers\\FineDiffReplaceOp::getToLen<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#92\">App\\Helpers\\FineDiffReplaceOp::getText<\/a>"],[0,3,"<a href=\"FineDiffHelper.php.html#97\">App\\Helpers\\FineDiffReplaceOp::getOpcode<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#120\">App\\Helpers\\FineDiffCopyOp::__construct<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#125\">App\\Helpers\\FineDiffCopyOp::getFromLen<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#130\">App\\Helpers\\FineDiffCopyOp::getToLen<\/a>"],[0,2,"<a href=\"FineDiffHelper.php.html#135\">App\\Helpers\\FineDiffCopyOp::getOpcode<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#144\">App\\Helpers\\FineDiffCopyOp::increase<\/a>"],[0,3,"<a href=\"FineDiffHelper.php.html#158\">App\\Helpers\\FineDiffOps::appendOpcode<\/a>"],[0,2,"<a href=\"FineDiffHelper.php.html#199\">App\\Helpers\\FineDiffHelper::__construct<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#208\">App\\Helpers\\FineDiffHelper::getOps<\/a>"],[0,2,"<a href=\"FineDiffHelper.php.html#213\">App\\Helpers\\FineDiffHelper::getOpcodes<\/a>"],[0,5,"<a href=\"FineDiffHelper.php.html#222\">App\\Helpers\\FineDiffHelper::renderDiffToHTML<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#255\">App\\Helpers\\FineDiffHelper::getDiffOpcodes<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#264\">App\\Helpers\\FineDiffHelper::getDiffOpsFromOpcodes<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#274\">App\\Helpers\\FineDiffHelper::renderToTextFromOpcodes<\/a>"],[0,1,"<a href=\"FineDiffHelper.php.html#284\">App\\Helpers\\FineDiffHelper::renderDiffToHTMLFromOpcodes<\/a>"],[0,6,"<a href=\"FineDiffHelper.php.html#295\">App\\Helpers\\FineDiffHelper::renderFromOpcodes<\/a>"],[0,2,"<a href=\"FineDiffHelper.php.html#377\">App\\Helpers\\FineDiffHelper::doDiff<\/a>"],[0,6,"<a href=\"FineDiffHelper.php.html#398\">App\\Helpers\\FineDiffHelper::_processGranularity<\/a>"],[0,24,"<a href=\"FineDiffHelper.php.html#437\">App\\Helpers\\FineDiffHelper::doFragmentDiff<\/a>"],[0,14,"<a href=\"FineDiffHelper.php.html#602\">App\\Helpers\\FineDiffHelper::doCharDiff<\/a>"],[0,4,"<a href=\"FineDiffHelper.php.html#694\">App\\Helpers\\FineDiffHelper::extractFragments<\/a>"],[0,3,"<a href=\"FineDiffHelper.php.html#725\">App\\Helpers\\FineDiffHelper::renderToTextFromOpcode<\/a>"],[0,4,"<a href=\"FineDiffHelper.php.html#733\">App\\Helpers\\FineDiffHelper::renderDiffToHTMLFromOpcode<\/a>"],[0,9,"<a href=\"ImageHelper.php.html#12\">App\\Helpers\\ImageHelper::create_image_from_base64<\/a>"],[0,5,"<a href=\"ImageHelper.php.html#72\">App\\Helpers\\ImageHelper::create_image_from_url<\/a>"],[0,1,"<a href=\"ImageHelper.php.html#106\">App\\Helpers\\ImageHelper::remove_image<\/a>"],[0,1,"<a href=\"ImageHelper.php.html#113\">App\\Helpers\\ImageHelper::copy_image<\/a>"],[0,7,"<a href=\"ImageHelper.php.html#126\">App\\Helpers\\ImageHelper::create_image_from_post<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

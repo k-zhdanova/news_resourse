@@ -1,0 +1,20 @@
+{
+    "name":"назва",
+    "category_id":"категорія",
+    "module_id":"разділ",
+    "role_id":"роль",
+    "user_id":"користувач",
+    "image_alt":"підпис до зображення",
+    "image":"зображення",
+    "text":"текст",
+    "uri":"URI",
+    "published_at":"дата та час публікації",
+    "firstname":"им'я",
+    "lastname":"прізвище",
+    "sort":"черга",
+    "scopes":"дозволи",
+    "type": "тип",
+    "updated_at": "дата редагування",
+    "meta_title": "тег title",
+    "meta_description": "тег description"
+}

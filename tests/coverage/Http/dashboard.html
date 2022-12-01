@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for W:\domains\API\app\Http</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">W:\domains\API\app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Http</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/CategoryController.php.html#17">App\Http\Controllers\CategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#19">App\Http\Controllers\EntryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryFileController.php.html#12">App\Http\Controllers\EntryFileController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#16">App\Http\Controllers\EntryReviewController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#17">App\Http\Controllers\InstitutionController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#12">App\Http\Controllers\LinkCategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#13">App\Http\Controllers\LinkController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ModuleController.php.html#15">App\Http\Controllers\ModuleController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#18">App\Http\Controllers\NewsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#11">App\Http\Controllers\PageCategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#18">App\Http\Controllers\PageController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#12">App\Http\Controllers\ReportController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#16">App\Http\Controllers\RoleController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#18">App\Http\Controllers\SectorController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#16">App\Http\Controllers\ServiceController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#17">App\Http\Controllers\TagController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#20">App\Http\Controllers\UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/Authenticate.php.html#7">App\Http\Middleware\Authenticate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/RecaptchaMiddleware.php.html#8">App\Http\Middleware\RecaptchaMiddleware</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/TrustHosts.php.html#7">App\Http\Middleware\TrustHosts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/CategoryRequest.php.html#8">App\Http\Requests\CategoryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryFileRequest.php.html#7">App\Http\Requests\EntryFileRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryRequest.php.html#7">App\Http\Requests\EntryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryReviewRequest.php.html#7">App\Http\Requests\EntryReviewRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/InstitutionRequest.php.html#8">App\Http\Requests\InstitutionRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/LinkCategoryRequest.php.html#7">App\Http\Requests\LinkCategoryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/LinkRequest.php.html#7">App\Http\Requests\LinkRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/NewsRequest.php.html#8">App\Http\Requests\NewsRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/PageCategoryRequest.php.html#7">App\Http\Requests\PageCategoryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/PageRequest.php.html#8">App\Http\Requests\PageRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/ReportRequest.php.html#9">App\Http\Requests\ReportRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/SectorRequest.php.html#8">App\Http\Requests\SectorRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/ServiceRequest.php.html#7">App\Http\Requests\ServiceRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/TagRequest.php.html#8">App\Http\Requests\TagRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/Request.php.html#8">App\Http\Requests\Request</a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="Middleware/SetLocale.php.html#9">App\Http\Middleware\SetLocale</a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/SectorController.php.html#18">App\Http\Controllers\SectorController</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#18">App\Http\Controllers\NewsController</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#17">App\Http\Controllers\InstitutionController</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#16">App\Http\Controllers\ServiceController</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#17">App\Http\Controllers\CategoryController</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#20">App\Http\Controllers\UserController</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#18">App\Http\Controllers\PageController</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#12">App\Http\Controllers\ReportController</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#12">App\Http\Controllers\LinkCategoryController</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#13">App\Http\Controllers\LinkController</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#19">App\Http\Controllers\EntryController</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Middleware/RecaptchaMiddleware.php.html#8">App\Http\Middleware\RecaptchaMiddleware</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#16">App\Http\Controllers\EntryReviewController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#11">App\Http\Controllers\PageCategoryController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#16">App\Http\Controllers\RoleController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#17">App\Http\Controllers\TagController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Requests/CategoryRequest.php.html#8">App\Http\Requests\CategoryRequest</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Requests/Request.php.html#8">App\Http\Requests\Request</a></td><td class="text-right">39</td></tr>
+       <tr><td><a href="Requests/ReportRequest.php.html#9">App\Http\Requests\ReportRequest</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controllers/EntryFileController.php.html#12">App\Http\Controllers\EntryFileController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/EntryRequest.php.html#7">App\Http\Requests\EntryRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/EntryReviewRequest.php.html#7">App\Http\Requests\EntryReviewRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/InstitutionRequest.php.html#8">App\Http\Requests\InstitutionRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/LinkCategoryRequest.php.html#7">App\Http\Requests\LinkCategoryRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/LinkRequest.php.html#7">App\Http\Requests\LinkRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/NewsRequest.php.html#8">App\Http\Requests\NewsRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/PageCategoryRequest.php.html#7">App\Http\Requests\PageCategoryRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/PageRequest.php.html#8">App\Http\Requests\PageRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/SectorRequest.php.html#8">App\Http\Requests\SectorRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/ServiceRequest.php.html#7">App\Http\Requests\ServiceRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/TagRequest.php.html#8">App\Http\Requests\TagRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/EntryFileRequest.php.html#7">App\Http\Requests\EntryFileRequest</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Middleware/Authenticate.php.html#7">App\Http\Middleware\Authenticate</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Middleware/SetLocale.php.html#9">App\Http\Middleware\SetLocale</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/CategoryController.php.html#29"><abbr title="App\Http\Controllers\CategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#52"><abbr title="App\Http\Controllers\CategoryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#92"><abbr title="App\Http\Controllers\CategoryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#122"><abbr title="App\Http\Controllers\CategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#173"><abbr title="App\Http\Controllers\CategoryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#33"><abbr title="App\Http\Controllers\EntryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#54"><abbr title="App\Http\Controllers\EntryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#81"><abbr title="App\Http\Controllers\EntryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#110"><abbr title="App\Http\Controllers\EntryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#138"><abbr title="App\Http\Controllers\EntryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryFileController.php.html#28"><abbr title="App\Http\Controllers\EntryFileController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryFileController.php.html#55"><abbr title="App\Http\Controllers\EntryFileController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#30"><abbr title="App\Http\Controllers\EntryReviewController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#47"><abbr title="App\Http\Controllers\EntryReviewController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#63"><abbr title="App\Http\Controllers\EntryReviewController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#86"><abbr title="App\Http\Controllers\EntryReviewController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#110"><abbr title="App\Http\Controllers\EntryReviewController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#33"><abbr title="App\Http\Controllers\InstitutionController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#80"><abbr title="App\Http\Controllers\InstitutionController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#120"><abbr title="App\Http\Controllers\InstitutionController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#156"><abbr title="App\Http\Controllers\InstitutionController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#207"><abbr title="App\Http\Controllers\InstitutionController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#28"><abbr title="App\Http\Controllers\LinkCategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#47"><abbr title="App\Http\Controllers\LinkCategoryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#71"><abbr title="App\Http\Controllers\LinkCategoryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#97"><abbr title="App\Http\Controllers\LinkCategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#132"><abbr title="App\Http\Controllers\LinkCategoryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#28"><abbr title="App\Http\Controllers\LinkController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#49"><abbr title="App\Http\Controllers\LinkController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#73"><abbr title="App\Http\Controllers\LinkController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#101"><abbr title="App\Http\Controllers\LinkController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#136"><abbr title="App\Http\Controllers\LinkController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ModuleController.php.html#26"><abbr title="App\Http\Controllers\ModuleController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#34"><abbr title="App\Http\Controllers\NewsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#61"><abbr title="App\Http\Controllers\NewsController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#108"><abbr title="App\Http\Controllers\NewsController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#143"><abbr title="App\Http\Controllers\NewsController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#213"><abbr title="App\Http\Controllers\NewsController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#26"><abbr title="App\Http\Controllers\PageCategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#44"><abbr title="App\Http\Controllers\PageCategoryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#62"><abbr title="App\Http\Controllers\PageCategoryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#87"><abbr title="App\Http\Controllers\PageCategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#114"><abbr title="App\Http\Controllers\PageCategoryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#33"><abbr title="App\Http\Controllers\PageController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#57"><abbr title="App\Http\Controllers\PageController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#92"><abbr title="App\Http\Controllers\PageController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#124"><abbr title="App\Http\Controllers\PageController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#158"><abbr title="App\Http\Controllers\PageController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#27"><abbr title="App\Http\Controllers\ReportController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#46"><abbr title="App\Http\Controllers\ReportController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#76"><abbr title="App\Http\Controllers\ReportController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#102"><abbr title="App\Http\Controllers\ReportController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#135"><abbr title="App\Http\Controllers\ReportController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#30"><abbr title="App\Http\Controllers\RoleController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#46"><abbr title="App\Http\Controllers\RoleController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#66"><abbr title="App\Http\Controllers\RoleController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#90"><abbr title="App\Http\Controllers\RoleController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#119"><abbr title="App\Http\Controllers\RoleController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#34"><abbr title="App\Http\Controllers\SectorController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#74"><abbr title="App\Http\Controllers\SectorController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#118"><abbr title="App\Http\Controllers\SectorController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#149"><abbr title="App\Http\Controllers\SectorController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#218"><abbr title="App\Http\Controllers\SectorController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#36"><abbr title="App\Http\Controllers\ServiceController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#83"><abbr title="App\Http\Controllers\ServiceController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#127"><abbr title="App\Http\Controllers\ServiceController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#165"><abbr title="App\Http\Controllers\ServiceController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#218"><abbr title="App\Http\Controllers\ServiceController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#31"><abbr title="App\Http\Controllers\TagController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#48"><abbr title="App\Http\Controllers\TagController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#65"><abbr title="App\Http\Controllers\TagController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#89"><abbr title="App\Http\Controllers\TagController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#114"><abbr title="App\Http\Controllers\TagController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#34"><abbr title="App\Http\Controllers\UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#55"><abbr title="App\Http\Controllers\UserController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#76"><abbr title="App\Http\Controllers\UserController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#118"><abbr title="App\Http\Controllers\UserController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#152"><abbr title="App\Http\Controllers\UserController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#179"><abbr title="App\Http\Controllers\UserController::token">token</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#223"><abbr title="App\Http\Controllers\UserController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#252"><abbr title="App\Http\Controllers\UserController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/Authenticate.php.html#15"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/RecaptchaMiddleware.php.html#17"><abbr title="App\Http\Middleware\RecaptchaMiddleware::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Middleware/TrustHosts.php.html#14"><abbr title="App\Http\Middleware\TrustHosts::hosts">hosts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/CategoryRequest.php.html#15"><abbr title="App\Http\Requests\CategoryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/CategoryRequest.php.html#25"><abbr title="App\Http\Requests\CategoryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/CategoryRequest.php.html#56"><abbr title="App\Http\Requests\CategoryRequest::queryParameters">queryParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryFileRequest.php.html#14"><abbr title="App\Http\Requests\EntryFileRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryFileRequest.php.html#24"><abbr title="App\Http\Requests\EntryFileRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryRequest.php.html#14"><abbr title="App\Http\Requests\EntryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryRequest.php.html#24"><abbr title="App\Http\Requests\EntryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryReviewRequest.php.html#14"><abbr title="App\Http\Requests\EntryReviewRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/EntryReviewRequest.php.html#24"><abbr title="App\Http\Requests\EntryReviewRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/InstitutionRequest.php.html#15"><abbr title="App\Http\Requests\InstitutionRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/InstitutionRequest.php.html#25"><abbr title="App\Http\Requests\InstitutionRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/LinkCategoryRequest.php.html#14"><abbr title="App\Http\Requests\LinkCategoryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/LinkCategoryRequest.php.html#24"><abbr title="App\Http\Requests\LinkCategoryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/LinkRequest.php.html#14"><abbr title="App\Http\Requests\LinkRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/LinkRequest.php.html#24"><abbr title="App\Http\Requests\LinkRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/NewsRequest.php.html#15"><abbr title="App\Http\Requests\NewsRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/NewsRequest.php.html#25"><abbr title="App\Http\Requests\NewsRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/PageCategoryRequest.php.html#14"><abbr title="App\Http\Requests\PageCategoryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/PageCategoryRequest.php.html#24"><abbr title="App\Http\Requests\PageCategoryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/PageRequest.php.html#15"><abbr title="App\Http\Requests\PageRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/PageRequest.php.html#25"><abbr title="App\Http\Requests\PageRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/ReportRequest.php.html#16"><abbr title="App\Http\Requests\ReportRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/ReportRequest.php.html#26"><abbr title="App\Http\Requests\ReportRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/Request.php.html#15"><abbr title="App\Http\Requests\Request::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/Request.php.html#25"><abbr title="App\Http\Requests\Request::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/SectorRequest.php.html#15"><abbr title="App\Http\Requests\SectorRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/SectorRequest.php.html#25"><abbr title="App\Http\Requests\SectorRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/ServiceRequest.php.html#14"><abbr title="App\Http\Requests\ServiceRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/ServiceRequest.php.html#24"><abbr title="App\Http\Requests\ServiceRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/TagRequest.php.html#15"><abbr title="App\Http\Requests\TagRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/TagRequest.php.html#25"><abbr title="App\Http\Requests\TagRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Requests/Request.php.html#30"><abbr title="App\Http\Requests\Request::makeOrderBy">makeOrderBy</abbr></a></td><td class="text-right">31%</td></tr>
+       <tr><td><a href="Middleware/SetLocale.php.html#18"><abbr title="App\Http\Middleware\SetLocale::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controllers/NewsController.php.html#143"><abbr title="App\Http\Controllers\NewsController::update">update</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#149"><abbr title="App\Http\Controllers\SectorController::update">update</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#122"><abbr title="App\Http\Controllers\CategoryController::update">update</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#156"><abbr title="App\Http\Controllers\InstitutionController::update">update</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#165"><abbr title="App\Http\Controllers\ServiceController::update">update</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Middleware/RecaptchaMiddleware.php.html#17"><abbr title="App\Http\Middleware\RecaptchaMiddleware::handle">handle</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#61"><abbr title="App\Http\Controllers\NewsController::create">create</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#74"><abbr title="App\Http\Controllers\SectorController::create">create</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#52"><abbr title="App\Http\Controllers\CategoryController::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#80"><abbr title="App\Http\Controllers\InstitutionController::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#97"><abbr title="App\Http\Controllers\LinkCategoryController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#101"><abbr title="App\Http\Controllers\LinkController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#102"><abbr title="App\Http\Controllers\ReportController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#83"><abbr title="App\Http\Controllers\ServiceController::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#57"><abbr title="App\Http\Controllers\PageController::create">create</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Requests/Request.php.html#30"><abbr title="App\Http\Requests\Request::makeOrderBy">makeOrderBy</abbr></a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#124"><abbr title="App\Http\Controllers\PageController::update">update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#76"><abbr title="App\Http\Controllers\UserController::show">show</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#179"><abbr title="App\Http\Controllers\UserController::token">token</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/CategoryRequest.php.html#25"><abbr title="App\Http\Requests\CategoryRequest::rules">rules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Requests/ReportRequest.php.html#26"><abbr title="App\Http\Requests\ReportRequest::rules">rules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#54"><abbr title="App\Http\Controllers\EntryController::create">create</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#110"><abbr title="App\Http\Controllers\EntryController::update">update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#33"><abbr title="App\Http\Controllers\InstitutionController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#46"><abbr title="App\Http\Controllers\ReportController::create">create</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#34"><abbr title="App\Http\Controllers\SectorController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#36"><abbr title="App\Http\Controllers\ServiceController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#118"><abbr title="App\Http\Controllers\UserController::update">update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/EntryRequest.php.html#24"><abbr title="App\Http\Requests\EntryRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/EntryReviewRequest.php.html#24"><abbr title="App\Http\Requests\EntryReviewRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/InstitutionRequest.php.html#25"><abbr title="App\Http\Requests\InstitutionRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/LinkCategoryRequest.php.html#24"><abbr title="App\Http\Requests\LinkCategoryRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/LinkRequest.php.html#24"><abbr title="App\Http\Requests\LinkRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/NewsRequest.php.html#25"><abbr title="App\Http\Requests\NewsRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/PageCategoryRequest.php.html#24"><abbr title="App\Http\Requests\PageCategoryRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/PageRequest.php.html#25"><abbr title="App\Http\Requests\PageRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/SectorRequest.php.html#25"><abbr title="App\Http\Requests\SectorRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/ServiceRequest.php.html#24"><abbr title="App\Http\Requests\ServiceRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Requests/TagRequest.php.html#25"><abbr title="App\Http\Requests\TagRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#92"><abbr title="App\Http\Controllers\CategoryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/CategoryController.php.html#173"><abbr title="App\Http\Controllers\CategoryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#81"><abbr title="App\Http\Controllers\EntryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/EntryController.php.html#138"><abbr title="App\Http\Controllers\EntryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/EntryFileController.php.html#28"><abbr title="App\Http\Controllers\EntryFileController::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/EntryFileController.php.html#55"><abbr title="App\Http\Controllers\EntryFileController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#63"><abbr title="App\Http\Controllers\EntryReviewController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#86"><abbr title="App\Http\Controllers\EntryReviewController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/EntryReviewController.php.html#110"><abbr title="App\Http\Controllers\EntryReviewController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#120"><abbr title="App\Http\Controllers\InstitutionController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/InstitutionController.php.html#207"><abbr title="App\Http\Controllers\InstitutionController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#47"><abbr title="App\Http\Controllers\LinkCategoryController::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#71"><abbr title="App\Http\Controllers\LinkCategoryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/LinkCategoryController.php.html#132"><abbr title="App\Http\Controllers\LinkCategoryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#49"><abbr title="App\Http\Controllers\LinkController::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#73"><abbr title="App\Http\Controllers\LinkController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/LinkController.php.html#136"><abbr title="App\Http\Controllers\LinkController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#108"><abbr title="App\Http\Controllers\NewsController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/NewsController.php.html#213"><abbr title="App\Http\Controllers\NewsController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#62"><abbr title="App\Http\Controllers\PageCategoryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#87"><abbr title="App\Http\Controllers\PageCategoryController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/PageCategoryController.php.html#114"><abbr title="App\Http\Controllers\PageCategoryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#92"><abbr title="App\Http\Controllers\PageController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/PageController.php.html#158"><abbr title="App\Http\Controllers\PageController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#76"><abbr title="App\Http\Controllers\ReportController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/ReportController.php.html#135"><abbr title="App\Http\Controllers\ReportController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#66"><abbr title="App\Http\Controllers\RoleController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#90"><abbr title="App\Http\Controllers\RoleController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/RoleController.php.html#119"><abbr title="App\Http\Controllers\RoleController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#118"><abbr title="App\Http\Controllers\SectorController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/SectorController.php.html#218"><abbr title="App\Http\Controllers\SectorController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#127"><abbr title="App\Http\Controllers\ServiceController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/ServiceController.php.html#218"><abbr title="App\Http\Controllers\ServiceController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#65"><abbr title="App\Http\Controllers\TagController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#89"><abbr title="App\Http\Controllers\TagController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/TagController.php.html#114"><abbr title="App\Http\Controllers\TagController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#152"><abbr title="App\Http\Controllers\UserController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#223"><abbr title="App\Http\Controllers\UserController::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controllers/UserController.php.html#252"><abbr title="App\Http\Controllers\UserController::logout">logout</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Middleware/Authenticate.php.html#15"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Requests/EntryFileRequest.php.html#24"><abbr title="App\Http\Requests\EntryFileRequest::rules">rules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Middleware/SetLocale.php.html#18"><abbr title="App\Http\Middleware\SetLocale::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.10</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.14</a> and <a href="https://phpunit.de/">PHPUnit 9.5.13</a> at Wed Feb 23 15:51:02 UTC 2022.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([35,0,0,1,0,0,0,1,0,0,1,8], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([116,0,0,0,1,0,0,1,0,0,1,6], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,22,"<a href=\"Controllers\/CategoryController.php.html#17\">App\\Http\\Controllers\\CategoryController<\/a>"],[100,0,"<a href=\"Controllers\/Controller.php.html#10\">App\\Http\\Controllers\\Controller<\/a>"],[0,11,"<a href=\"Controllers\/EntryController.php.html#19\">App\\Http\\Controllers\\EntryController<\/a>"],[0,4,"<a href=\"Controllers\/EntryFileController.php.html#12\">App\\Http\\Controllers\\EntryFileController<\/a>"],[0,8,"<a href=\"Controllers\/EntryReviewController.php.html#16\">App\\Http\\Controllers\\EntryReviewController<\/a>"],[97.14285714285714,10,"<a href=\"Controllers\/FeedBackController.php.html#10\">App\\Http\\Controllers\\FeedBackController<\/a>"],[0,24,"<a href=\"Controllers\/InstitutionController.php.html#17\">App\\Http\\Controllers\\InstitutionController<\/a>"],[0,13,"<a href=\"Controllers\/LinkCategoryController.php.html#12\">App\\Http\\Controllers\\LinkCategoryController<\/a>"],[0,13,"<a href=\"Controllers\/LinkController.php.html#13\">App\\Http\\Controllers\\LinkController<\/a>"],[0,1,"<a href=\"Controllers\/ModuleController.php.html#15\">App\\Http\\Controllers\\ModuleController<\/a>"],[0,28,"<a href=\"Controllers\/NewsController.php.html#18\">App\\Http\\Controllers\\NewsController<\/a>"],[0,8,"<a href=\"Controllers\/PageCategoryController.php.html#11\">App\\Http\\Controllers\\PageCategoryController<\/a>"],[0,14,"<a href=\"Controllers\/PageController.php.html#18\">App\\Http\\Controllers\\PageController<\/a>"],[0,14,"<a href=\"Controllers\/ReportController.php.html#12\">App\\Http\\Controllers\\ReportController<\/a>"],[0,8,"<a href=\"Controllers\/RoleController.php.html#16\">App\\Http\\Controllers\\RoleController<\/a>"],[0,30,"<a href=\"Controllers\/SectorController.php.html#18\">App\\Http\\Controllers\\SectorController<\/a>"],[0,24,"<a href=\"Controllers\/ServiceController.php.html#16\">App\\Http\\Controllers\\ServiceController<\/a>"],[0,8,"<a href=\"Controllers\/TagController.php.html#17\">App\\Http\\Controllers\\TagController<\/a>"],[0,19,"<a href=\"Controllers\/UserController.php.html#20\">App\\Http\\Controllers\\UserController<\/a>"],[100,0,"<a href=\"Kernel.php.html#7\">App\\Http\\Kernel<\/a>"],[0,2,"<a href=\"Middleware\/Authenticate.php.html#7\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,0,"<a href=\"Middleware\/EncryptCookies.php.html#7\">App\\Http\\Middleware\\EncryptCookies<\/a>"],[100,0,"<a href=\"Middleware\/PreventRequestsDuringMaintenance.php.html#7\">App\\Http\\Middleware\\PreventRequestsDuringMaintenance<\/a>"],[0,9,"<a href=\"Middleware\/RecaptchaMiddleware.php.html#8\">App\\Http\\Middleware\\RecaptchaMiddleware<\/a>"],[0,4,"<a href=\"Middleware\/RedirectIfAuthenticated.php.html#10\">App\\Http\\Middleware\\RedirectIfAuthenticated<\/a>"],[66.66666666666666,2,"<a href=\"Middleware\/SetLocale.php.html#9\">App\\Http\\Middleware\\SetLocale<\/a>"],[100,0,"<a href=\"Middleware\/TrimStrings.php.html#7\">App\\Http\\Middleware\\TrimStrings<\/a>"],[0,1,"<a href=\"Middleware\/TrustHosts.php.html#7\">App\\Http\\Middleware\\TrustHosts<\/a>"],[100,0,"<a href=\"Middleware\/TrustProxies.php.html#8\">App\\Http\\Middleware\\TrustProxies<\/a>"],[100,0,"<a href=\"Middleware\/VerifyCsrfToken.php.html#7\">App\\Http\\Middleware\\VerifyCsrfToken<\/a>"],[0,6,"<a href=\"Requests\/CategoryRequest.php.html#8\">App\\Http\\Requests\\CategoryRequest<\/a>"],[0,3,"<a href=\"Requests\/EntryFileRequest.php.html#7\">App\\Http\\Requests\\EntryFileRequest<\/a>"],[0,4,"<a href=\"Requests\/EntryRequest.php.html#7\">App\\Http\\Requests\\EntryRequest<\/a>"],[0,4,"<a href=\"Requests\/EntryReviewRequest.php.html#7\">App\\Http\\Requests\\EntryReviewRequest<\/a>"],[100,4,"<a href=\"Requests\/FeedBackRequest.php.html#7\">App\\Http\\Requests\\FeedBackRequest<\/a>"],[0,4,"<a href=\"Requests\/InstitutionRequest.php.html#8\">App\\Http\\Requests\\InstitutionRequest<\/a>"],[0,4,"<a href=\"Requests\/LinkCategoryRequest.php.html#7\">App\\Http\\Requests\\LinkCategoryRequest<\/a>"],[0,4,"<a href=\"Requests\/LinkRequest.php.html#7\">App\\Http\\Requests\\LinkRequest<\/a>"],[0,4,"<a href=\"Requests\/NewsRequest.php.html#8\">App\\Http\\Requests\\NewsRequest<\/a>"],[0,4,"<a href=\"Requests\/PageCategoryRequest.php.html#7\">App\\Http\\Requests\\PageCategoryRequest<\/a>"],[0,4,"<a href=\"Requests\/PageRequest.php.html#8\">App\\Http\\Requests\\PageRequest<\/a>"],[0,5,"<a href=\"Requests\/ReportRequest.php.html#9\">App\\Http\\Requests\\ReportRequest<\/a>"],[27.77777777777778,9,"<a href=\"Requests\/Request.php.html#8\">App\\Http\\Requests\\Request<\/a>"],[0,4,"<a href=\"Requests\/SectorRequest.php.html#8\">App\\Http\\Requests\\SectorRequest<\/a>"],[0,4,"<a href=\"Requests\/ServiceRequest.php.html#7\">App\\Http\\Requests\\ServiceRequest<\/a>"],[0,4,"<a href=\"Requests\/TagRequest.php.html#8\">App\\Http\\Requests\\TagRequest<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Controllers\/CategoryController.php.html#29\">App\\Http\\Controllers\\CategoryController::index<\/a>"],[0,6,"<a href=\"Controllers\/CategoryController.php.html#52\">App\\Http\\Controllers\\CategoryController::create<\/a>"],[0,2,"<a href=\"Controllers\/CategoryController.php.html#92\">App\\Http\\Controllers\\CategoryController::show<\/a>"],[0,11,"<a href=\"Controllers\/CategoryController.php.html#122\">App\\Http\\Controllers\\CategoryController::update<\/a>"],[0,2,"<a href=\"Controllers\/CategoryController.php.html#173\">App\\Http\\Controllers\\CategoryController::delete<\/a>"],[0,1,"<a href=\"Controllers\/EntryController.php.html#33\">App\\Http\\Controllers\\EntryController::index<\/a>"],[0,3,"<a href=\"Controllers\/EntryController.php.html#54\">App\\Http\\Controllers\\EntryController::create<\/a>"],[0,2,"<a href=\"Controllers\/EntryController.php.html#81\">App\\Http\\Controllers\\EntryController::show<\/a>"],[0,3,"<a href=\"Controllers\/EntryController.php.html#110\">App\\Http\\Controllers\\EntryController::update<\/a>"],[0,2,"<a href=\"Controllers\/EntryController.php.html#138\">App\\Http\\Controllers\\EntryController::delete<\/a>"],[0,2,"<a href=\"Controllers\/EntryFileController.php.html#28\">App\\Http\\Controllers\\EntryFileController::create<\/a>"],[0,2,"<a href=\"Controllers\/EntryFileController.php.html#55\">App\\Http\\Controllers\\EntryFileController::delete<\/a>"],[0,1,"<a href=\"Controllers\/EntryReviewController.php.html#30\">App\\Http\\Controllers\\EntryReviewController::index<\/a>"],[0,1,"<a href=\"Controllers\/EntryReviewController.php.html#47\">App\\Http\\Controllers\\EntryReviewController::create<\/a>"],[0,2,"<a href=\"Controllers\/EntryReviewController.php.html#63\">App\\Http\\Controllers\\EntryReviewController::show<\/a>"],[0,2,"<a href=\"Controllers\/EntryReviewController.php.html#86\">App\\Http\\Controllers\\EntryReviewController::update<\/a>"],[0,2,"<a href=\"Controllers\/EntryReviewController.php.html#110\">App\\Http\\Controllers\\EntryReviewController::delete<\/a>"],[100,1,"<a href=\"Controllers\/FeedBackController.php.html#23\">App\\Http\\Controllers\\FeedBackController::index<\/a>"],[100,1,"<a href=\"Controllers\/FeedBackController.php.html#41\">App\\Http\\Controllers\\FeedBackController::create<\/a>"],[100,2,"<a href=\"Controllers\/FeedBackController.php.html#57\">App\\Http\\Controllers\\FeedBackController::show<\/a>"],[92.3076923076923,4,"<a href=\"Controllers\/FeedBackController.php.html#84\">App\\Http\\Controllers\\FeedBackController::update<\/a>"],[100,2,"<a href=\"Controllers\/FeedBackController.php.html#116\">App\\Http\\Controllers\\FeedBackController::delete<\/a>"],[0,3,"<a href=\"Controllers\/InstitutionController.php.html#33\">App\\Http\\Controllers\\InstitutionController::index<\/a>"],[0,6,"<a href=\"Controllers\/InstitutionController.php.html#80\">App\\Http\\Controllers\\InstitutionController::create<\/a>"],[0,2,"<a href=\"Controllers\/InstitutionController.php.html#120\">App\\Http\\Controllers\\InstitutionController::show<\/a>"],[0,11,"<a href=\"Controllers\/InstitutionController.php.html#156\">App\\Http\\Controllers\\InstitutionController::update<\/a>"],[0,2,"<a href=\"Controllers\/InstitutionController.php.html#207\">App\\Http\\Controllers\\InstitutionController::delete<\/a>"],[0,1,"<a href=\"Controllers\/LinkCategoryController.php.html#28\">App\\Http\\Controllers\\LinkCategoryController::index<\/a>"],[0,2,"<a href=\"Controllers\/LinkCategoryController.php.html#47\">App\\Http\\Controllers\\LinkCategoryController::create<\/a>"],[0,2,"<a href=\"Controllers\/LinkCategoryController.php.html#71\">App\\Http\\Controllers\\LinkCategoryController::show<\/a>"],[0,6,"<a href=\"Controllers\/LinkCategoryController.php.html#97\">App\\Http\\Controllers\\LinkCategoryController::update<\/a>"],[0,2,"<a href=\"Controllers\/LinkCategoryController.php.html#132\">App\\Http\\Controllers\\LinkCategoryController::delete<\/a>"],[0,1,"<a href=\"Controllers\/LinkController.php.html#28\">App\\Http\\Controllers\\LinkController::index<\/a>"],[0,2,"<a href=\"Controllers\/LinkController.php.html#49\">App\\Http\\Controllers\\LinkController::create<\/a>"],[0,2,"<a href=\"Controllers\/LinkController.php.html#73\">App\\Http\\Controllers\\LinkController::show<\/a>"],[0,6,"<a href=\"Controllers\/LinkController.php.html#101\">App\\Http\\Controllers\\LinkController::update<\/a>"],[0,2,"<a href=\"Controllers\/LinkController.php.html#136\">App\\Http\\Controllers\\LinkController::delete<\/a>"],[0,1,"<a href=\"Controllers\/ModuleController.php.html#26\">App\\Http\\Controllers\\ModuleController::index<\/a>"],[0,1,"<a href=\"Controllers\/NewsController.php.html#34\">App\\Http\\Controllers\\NewsController::index<\/a>"],[0,7,"<a href=\"Controllers\/NewsController.php.html#61\">App\\Http\\Controllers\\NewsController::create<\/a>"],[0,2,"<a href=\"Controllers\/NewsController.php.html#108\">App\\Http\\Controllers\\NewsController::show<\/a>"],[0,16,"<a href=\"Controllers\/NewsController.php.html#143\">App\\Http\\Controllers\\NewsController::update<\/a>"],[0,2,"<a href=\"Controllers\/NewsController.php.html#213\">App\\Http\\Controllers\\NewsController::delete<\/a>"],[0,1,"<a href=\"Controllers\/PageCategoryController.php.html#26\">App\\Http\\Controllers\\PageCategoryController::index<\/a>"],[0,1,"<a href=\"Controllers\/PageCategoryController.php.html#44\">App\\Http\\Controllers\\PageCategoryController::create<\/a>"],[0,2,"<a href=\"Controllers\/PageCategoryController.php.html#62\">App\\Http\\Controllers\\PageCategoryController::show<\/a>"],[0,2,"<a href=\"Controllers\/PageCategoryController.php.html#87\">App\\Http\\Controllers\\PageCategoryController::update<\/a>"],[0,2,"<a href=\"Controllers\/PageCategoryController.php.html#114\">App\\Http\\Controllers\\PageCategoryController::delete<\/a>"],[0,1,"<a href=\"Controllers\/PageController.php.html#33\">App\\Http\\Controllers\\PageController::index<\/a>"],[0,5,"<a href=\"Controllers\/PageController.php.html#57\">App\\Http\\Controllers\\PageController::create<\/a>"],[0,2,"<a href=\"Controllers\/PageController.php.html#92\">App\\Http\\Controllers\\PageController::show<\/a>"],[0,4,"<a href=\"Controllers\/PageController.php.html#124\">App\\Http\\Controllers\\PageController::update<\/a>"],[0,2,"<a href=\"Controllers\/PageController.php.html#158\">App\\Http\\Controllers\\PageController::delete<\/a>"],[0,1,"<a href=\"Controllers\/ReportController.php.html#27\">App\\Http\\Controllers\\ReportController::index<\/a>"],[0,3,"<a href=\"Controllers\/ReportController.php.html#46\">App\\Http\\Controllers\\ReportController::create<\/a>"],[0,2,"<a href=\"Controllers\/ReportController.php.html#76\">App\\Http\\Controllers\\ReportController::show<\/a>"],[0,6,"<a href=\"Controllers\/ReportController.php.html#102\">App\\Http\\Controllers\\ReportController::update<\/a>"],[0,2,"<a href=\"Controllers\/ReportController.php.html#135\">App\\Http\\Controllers\\ReportController::delete<\/a>"],[0,1,"<a href=\"Controllers\/RoleController.php.html#30\">App\\Http\\Controllers\\RoleController::index<\/a>"],[0,1,"<a href=\"Controllers\/RoleController.php.html#46\">App\\Http\\Controllers\\RoleController::create<\/a>"],[0,2,"<a href=\"Controllers\/RoleController.php.html#66\">App\\Http\\Controllers\\RoleController::show<\/a>"],[0,2,"<a href=\"Controllers\/RoleController.php.html#90\">App\\Http\\Controllers\\RoleController::update<\/a>"],[0,2,"<a href=\"Controllers\/RoleController.php.html#119\">App\\Http\\Controllers\\RoleController::delete<\/a>"],[0,3,"<a href=\"Controllers\/SectorController.php.html#34\">App\\Http\\Controllers\\SectorController::index<\/a>"],[0,7,"<a href=\"Controllers\/SectorController.php.html#74\">App\\Http\\Controllers\\SectorController::create<\/a>"],[0,2,"<a href=\"Controllers\/SectorController.php.html#118\">App\\Http\\Controllers\\SectorController::show<\/a>"],[0,16,"<a href=\"Controllers\/SectorController.php.html#149\">App\\Http\\Controllers\\SectorController::update<\/a>"],[0,2,"<a href=\"Controllers\/SectorController.php.html#218\">App\\Http\\Controllers\\SectorController::delete<\/a>"],[0,3,"<a href=\"Controllers\/ServiceController.php.html#36\">App\\Http\\Controllers\\ServiceController::index<\/a>"],[0,6,"<a href=\"Controllers\/ServiceController.php.html#83\">App\\Http\\Controllers\\ServiceController::create<\/a>"],[0,2,"<a href=\"Controllers\/ServiceController.php.html#127\">App\\Http\\Controllers\\ServiceController::show<\/a>"],[0,11,"<a href=\"Controllers\/ServiceController.php.html#165\">App\\Http\\Controllers\\ServiceController::update<\/a>"],[0,2,"<a href=\"Controllers\/ServiceController.php.html#218\">App\\Http\\Controllers\\ServiceController::delete<\/a>"],[0,1,"<a href=\"Controllers\/TagController.php.html#31\">App\\Http\\Controllers\\TagController::index<\/a>"],[0,1,"<a href=\"Controllers\/TagController.php.html#48\">App\\Http\\Controllers\\TagController::create<\/a>"],[0,2,"<a href=\"Controllers\/TagController.php.html#65\">App\\Http\\Controllers\\TagController::show<\/a>"],[0,2,"<a href=\"Controllers\/TagController.php.html#89\">App\\Http\\Controllers\\TagController::update<\/a>"],[0,2,"<a href=\"Controllers\/TagController.php.html#114\">App\\Http\\Controllers\\TagController::delete<\/a>"],[0,1,"<a href=\"Controllers\/UserController.php.html#34\">App\\Http\\Controllers\\UserController::index<\/a>"],[0,1,"<a href=\"Controllers\/UserController.php.html#55\">App\\Http\\Controllers\\UserController::create<\/a>"],[0,4,"<a href=\"Controllers\/UserController.php.html#76\">App\\Http\\Controllers\\UserController::show<\/a>"],[0,3,"<a href=\"Controllers\/UserController.php.html#118\">App\\Http\\Controllers\\UserController::update<\/a>"],[0,2,"<a href=\"Controllers\/UserController.php.html#152\">App\\Http\\Controllers\\UserController::delete<\/a>"],[0,4,"<a href=\"Controllers\/UserController.php.html#179\">App\\Http\\Controllers\\UserController::token<\/a>"],[0,2,"<a href=\"Controllers\/UserController.php.html#223\">App\\Http\\Controllers\\UserController::login<\/a>"],[0,2,"<a href=\"Controllers\/UserController.php.html#252\">App\\Http\\Controllers\\UserController::logout<\/a>"],[0,2,"<a href=\"Middleware\/Authenticate.php.html#15\">App\\Http\\Middleware\\Authenticate::redirectTo<\/a>"],[0,9,"<a href=\"Middleware\/RecaptchaMiddleware.php.html#17\">App\\Http\\Middleware\\RecaptchaMiddleware::handle<\/a>"],[0,4,"<a href=\"Middleware\/RedirectIfAuthenticated.php.html#20\">App\\Http\\Middleware\\RedirectIfAuthenticated::handle<\/a>"],[66.66666666666666,2,"<a href=\"Middleware\/SetLocale.php.html#18\">App\\Http\\Middleware\\SetLocale::handle<\/a>"],[0,1,"<a href=\"Middleware\/TrustHosts.php.html#14\">App\\Http\\Middleware\\TrustHosts::hosts<\/a>"],[0,1,"<a href=\"Requests\/CategoryRequest.php.html#15\">App\\Http\\Requests\\CategoryRequest::authorize<\/a>"],[0,4,"<a href=\"Requests\/CategoryRequest.php.html#25\">App\\Http\\Requests\\CategoryRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/CategoryRequest.php.html#56\">App\\Http\\Requests\\CategoryRequest::queryParameters<\/a>"],[0,1,"<a href=\"Requests\/EntryFileRequest.php.html#14\">App\\Http\\Requests\\EntryFileRequest::authorize<\/a>"],[0,2,"<a href=\"Requests\/EntryFileRequest.php.html#24\">App\\Http\\Requests\\EntryFileRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/EntryRequest.php.html#14\">App\\Http\\Requests\\EntryRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/EntryRequest.php.html#24\">App\\Http\\Requests\\EntryRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/EntryReviewRequest.php.html#14\">App\\Http\\Requests\\EntryReviewRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/EntryReviewRequest.php.html#24\">App\\Http\\Requests\\EntryReviewRequest::rules<\/a>"],[100,1,"<a href=\"Requests\/FeedBackRequest.php.html#14\">App\\Http\\Requests\\FeedBackRequest::authorize<\/a>"],[100,3,"<a href=\"Requests\/FeedBackRequest.php.html#24\">App\\Http\\Requests\\FeedBackRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/InstitutionRequest.php.html#15\">App\\Http\\Requests\\InstitutionRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/InstitutionRequest.php.html#25\">App\\Http\\Requests\\InstitutionRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/LinkCategoryRequest.php.html#14\">App\\Http\\Requests\\LinkCategoryRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/LinkCategoryRequest.php.html#24\">App\\Http\\Requests\\LinkCategoryRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/LinkRequest.php.html#14\">App\\Http\\Requests\\LinkRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/LinkRequest.php.html#24\">App\\Http\\Requests\\LinkRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/NewsRequest.php.html#15\">App\\Http\\Requests\\NewsRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/NewsRequest.php.html#25\">App\\Http\\Requests\\NewsRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/PageCategoryRequest.php.html#14\">App\\Http\\Requests\\PageCategoryRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/PageCategoryRequest.php.html#24\">App\\Http\\Requests\\PageCategoryRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/PageRequest.php.html#15\">App\\Http\\Requests\\PageRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/PageRequest.php.html#25\">App\\Http\\Requests\\PageRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/ReportRequest.php.html#16\">App\\Http\\Requests\\ReportRequest::authorize<\/a>"],[0,4,"<a href=\"Requests\/ReportRequest.php.html#26\">App\\Http\\Requests\\ReportRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/Request.php.html#15\">App\\Http\\Requests\\Request::authorize<\/a>"],[0,1,"<a href=\"Requests\/Request.php.html#25\">App\\Http\\Requests\\Request::rules<\/a>"],[31.25,7,"<a href=\"Requests\/Request.php.html#30\">App\\Http\\Requests\\Request::makeOrderBy<\/a>"],[0,1,"<a href=\"Requests\/SectorRequest.php.html#15\">App\\Http\\Requests\\SectorRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/SectorRequest.php.html#25\">App\\Http\\Requests\\SectorRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/ServiceRequest.php.html#14\">App\\Http\\Requests\\ServiceRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/ServiceRequest.php.html#24\">App\\Http\\Requests\\ServiceRequest::rules<\/a>"],[0,1,"<a href=\"Requests\/TagRequest.php.html#15\">App\\Http\\Requests\\TagRequest::authorize<\/a>"],[0,3,"<a href=\"Requests\/TagRequest.php.html#25\">App\\Http\\Requests\\TagRequest::rules<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

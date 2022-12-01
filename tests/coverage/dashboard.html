@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for W:\domains\API\app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="_css/style.css" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">W:\domains\API\app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#12">App\Helpers\FineDiffDeleteOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#40">App\Helpers\FineDiffInsertOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#73">App\Helpers\FineDiffReplaceOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#117">App\Helpers\FineDiffCopyOp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#156">App\Helpers\FineDiffOps</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#183">App\Helpers\FineDiffHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#10">App\Helpers\ImageHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#17">App\Http\Controllers\CategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#19">App\Http\Controllers\EntryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryFileController.php.html#12">App\Http\Controllers\EntryFileController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#16">App\Http\Controllers\EntryReviewController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#17">App\Http\Controllers\InstitutionController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#12">App\Http\Controllers\LinkCategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#13">App\Http\Controllers\LinkController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModuleController.php.html#15">App\Http\Controllers\ModuleController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#18">App\Http\Controllers\NewsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#11">App\Http\Controllers\PageCategoryController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#18">App\Http\Controllers\PageController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#12">App\Http\Controllers\ReportController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#16">App\Http\Controllers\RoleController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#18">App\Http\Controllers\SectorController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#16">App\Http\Controllers\ServiceController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#17">App\Http\Controllers\TagController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#20">App\Http\Controllers\UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#7">App\Http\Middleware\Authenticate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RecaptchaMiddleware.php.html#8">App\Http\Middleware\RecaptchaMiddleware</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#7">App\Http\Middleware\TrustHosts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CategoryRequest.php.html#8">App\Http\Requests\CategoryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryFileRequest.php.html#7">App\Http\Requests\EntryFileRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryRequest.php.html#7">App\Http\Requests\EntryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryReviewRequest.php.html#7">App\Http\Requests\EntryReviewRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/InstitutionRequest.php.html#8">App\Http\Requests\InstitutionRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LinkCategoryRequest.php.html#7">App\Http\Requests\LinkCategoryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LinkRequest.php.html#7">App\Http\Requests\LinkRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/NewsRequest.php.html#8">App\Http\Requests\NewsRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/PageCategoryRequest.php.html#7">App\Http\Requests\PageCategoryRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/PageRequest.php.html#8">App\Http\Requests\PageRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ReportRequest.php.html#9">App\Http\Requests\ReportRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectorRequest.php.html#8">App\Http\Requests\SectorRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ServiceRequest.php.html#7">App\Http\Requests\ServiceRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/TagRequest.php.html#8">App\Http\Requests\TagRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#13">App\Models\Category</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Entry.php.html#13">App\Models\Entry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryFile.php.html#10">App\Models\EntryFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryReview.php.html#10">App\Models\EntryReview</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Institution.php.html#13">App\Models\Institution</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Link.php.html#13">App\Models\Link</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkCategory.php.html#13">App\Models\LinkCategory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkCategoryTranslation.php.html#10">App\Models\LinkCategoryTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkTranslation.php.html#10">App\Models\LinkTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Module.php.html#9">App\Models\Module</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/News.php.html#13">App\Models\News</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/NewsTranslation.php.html#10">App\Models\NewsTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Page.php.html#13">App\Models\Page</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageCategory.php.html#13">App\Models\PageCategory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageCategoryTranslation.php.html#10">App\Models\PageCategoryTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageTranslation.php.html#10">App\Models\PageTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Report.php.html#11">App\Models\Report</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#14">App\Models\Role</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/RoleModule.php.html#10">App\Models\RoleModule</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Sector.php.html#15">App\Models\Sector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#13">App\Models\Service</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/ServiceTranslation.php.html#10">App\Models\ServiceTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Tag.php.html#14">App\Models\Tag</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/TagRel.php.html#9">App\Models\TagRel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#17">App\Models\User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/UserRole.php.html#10">App\Models\UserRole</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#8">App\Providers\BroadcastServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Request.php.html#8">App\Http\Requests\Request</a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="Console/Kernel.php.html#8">App\Console\Kernel</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Models/FeedBack.php.html#11">App\Models\FeedBack</a></td><td class="text-right">64%</td></tr>
+       <tr><td><a href="Http/Middleware/SetLocale.php.html#9">App\Http\Middleware\SetLocale</a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#183">App\Helpers\FineDiffHelper</a></td><td class="text-right">6006</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#18">App\Http\Controllers\SectorController</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#18">App\Http\Controllers\NewsController</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#17">App\Http\Controllers\InstitutionController</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#16">App\Http\Controllers\ServiceController</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#10">App\Helpers\ImageHelper</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#17">App\Http\Controllers\CategoryController</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#20">App\Http\Controllers\UserController</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Models/Role.php.html#14">App\Models\Role</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Models/User.php.html#17">App\Models\User</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Models/Module.php.html#9">App\Models\Module</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#18">App\Http\Controllers\PageController</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#12">App\Http\Controllers\ReportController</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Models/Entry.php.html#13">App\Models\Entry</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#12">App\Http\Controllers\LinkCategoryController</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#13">App\Http\Controllers\LinkController</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Models/LinkCategoryTranslation.php.html#10">App\Models\LinkCategoryTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/LinkTranslation.php.html#10">App\Models\LinkTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/NewsTranslation.php.html#10">App\Models\NewsTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/PageCategoryTranslation.php.html#10">App\Models\PageCategoryTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/PageTranslation.php.html#10">App\Models\PageTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/Service.php.html#13">App\Models\Service</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/ServiceTranslation.php.html#10">App\Models\ServiceTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#19">App\Http\Controllers\EntryController</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Http/Middleware/RecaptchaMiddleware.php.html#8">App\Http\Middleware\RecaptchaMiddleware</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#16">App\Http\Controllers\EntryReviewController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#11">App\Http\Controllers\PageCategoryController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#16">App\Http\Controllers\RoleController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#17">App\Http\Controllers\TagController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#73">App\Helpers\FineDiffReplaceOp</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Models/Category.php.html#13">App\Models\Category</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#40">App\Helpers\FineDiffInsertOp</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#117">App\Helpers\FineDiffCopyOp</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Requests/CategoryRequest.php.html#8">App\Http\Requests\CategoryRequest</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/News.php.html#13">App\Models\News</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Requests/Request.php.html#8">App\Http\Requests\Request</a></td><td class="text-right">39</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#12">App\Helpers\FineDiffDeleteOp</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Requests/ReportRequest.php.html#9">App\Http\Requests\ReportRequest</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Models/EntryFile.php.html#10">App\Models\EntryFile</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/EntryFileController.php.html#12">App\Http\Controllers\EntryFileController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#10">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/EntryRequest.php.html#7">App\Http\Requests\EntryRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/EntryReviewRequest.php.html#7">App\Http\Requests\EntryReviewRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/InstitutionRequest.php.html#8">App\Http\Requests\InstitutionRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/LinkCategoryRequest.php.html#7">App\Http\Requests\LinkCategoryRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/LinkRequest.php.html#7">App\Http\Requests\LinkRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/NewsRequest.php.html#8">App\Http\Requests\NewsRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/PageCategoryRequest.php.html#7">App\Http\Requests\PageCategoryRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/PageRequest.php.html#8">App\Http\Requests\PageRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/SectorRequest.php.html#8">App\Http\Requests\SectorRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/ServiceRequest.php.html#7">App\Http\Requests\ServiceRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/TagRequest.php.html#8">App\Http\Requests\TagRequest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#156">App\Helpers\FineDiffOps</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/EntryFileRequest.php.html#7">App\Http\Requests\EntryFileRequest</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/Report.php.html#11">App\Models\Report</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/FeedBack.php.html#11">App\Models\FeedBack</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#7">App\Http\Middleware\Authenticate</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/SetLocale.php.html#9">App\Http\Middleware\SetLocale</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Console/Kernel.php.html#16"><abbr title="App\Console\Kernel::schedule">schedule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#15"><abbr title="App\Helpers\FineDiffDeleteOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#20"><abbr title="App\Helpers\FineDiffDeleteOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#25"><abbr title="App\Helpers\FineDiffDeleteOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#30"><abbr title="App\Helpers\FineDiffDeleteOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#43"><abbr title="App\Helpers\FineDiffInsertOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#48"><abbr title="App\Helpers\FineDiffInsertOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#53"><abbr title="App\Helpers\FineDiffInsertOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#58"><abbr title="App\Helpers\FineDiffInsertOp::getText">getText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#63"><abbr title="App\Helpers\FineDiffInsertOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#76"><abbr title="App\Helpers\FineDiffReplaceOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#82"><abbr title="App\Helpers\FineDiffReplaceOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#87"><abbr title="App\Helpers\FineDiffReplaceOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#92"><abbr title="App\Helpers\FineDiffReplaceOp::getText">getText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#97"><abbr title="App\Helpers\FineDiffReplaceOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#120"><abbr title="App\Helpers\FineDiffCopyOp::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#125"><abbr title="App\Helpers\FineDiffCopyOp::getFromLen">getFromLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#130"><abbr title="App\Helpers\FineDiffCopyOp::getToLen">getToLen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#135"><abbr title="App\Helpers\FineDiffCopyOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#144"><abbr title="App\Helpers\FineDiffCopyOp::increase">increase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#158"><abbr title="App\Helpers\FineDiffOps::appendOpcode">appendOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#199"><abbr title="App\Helpers\FineDiffHelper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#208"><abbr title="App\Helpers\FineDiffHelper::getOps">getOps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#213"><abbr title="App\Helpers\FineDiffHelper::getOpcodes">getOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#222"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTML">renderDiffToHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#255"><abbr title="App\Helpers\FineDiffHelper::getDiffOpcodes">getDiffOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#264"><abbr title="App\Helpers\FineDiffHelper::getDiffOpsFromOpcodes">getDiffOpsFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#274"><abbr title="App\Helpers\FineDiffHelper::renderToTextFromOpcodes">renderToTextFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#284"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTMLFromOpcodes">renderDiffToHTMLFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#295"><abbr title="App\Helpers\FineDiffHelper::renderFromOpcodes">renderFromOpcodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#377"><abbr title="App\Helpers\FineDiffHelper::doDiff">doDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#398"><abbr title="App\Helpers\FineDiffHelper::_processGranularity">_processGranularity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#437"><abbr title="App\Helpers\FineDiffHelper::doFragmentDiff">doFragmentDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#602"><abbr title="App\Helpers\FineDiffHelper::doCharDiff">doCharDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#694"><abbr title="App\Helpers\FineDiffHelper::extractFragments">extractFragments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#725"><abbr title="App\Helpers\FineDiffHelper::renderToTextFromOpcode">renderToTextFromOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#733"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTMLFromOpcode">renderDiffToHTMLFromOpcode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#12"><abbr title="App\Helpers\ImageHelper::create_image_from_base64">create_image_from_base64</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#72"><abbr title="App\Helpers\ImageHelper::create_image_from_url">create_image_from_url</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#106"><abbr title="App\Helpers\ImageHelper::remove_image">remove_image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#113"><abbr title="App\Helpers\ImageHelper::copy_image">copy_image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#126"><abbr title="App\Helpers\ImageHelper::create_image_from_post">create_image_from_post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#29"><abbr title="App\Http\Controllers\CategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#52"><abbr title="App\Http\Controllers\CategoryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#92"><abbr title="App\Http\Controllers\CategoryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#122"><abbr title="App\Http\Controllers\CategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#173"><abbr title="App\Http\Controllers\CategoryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#33"><abbr title="App\Http\Controllers\EntryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#54"><abbr title="App\Http\Controllers\EntryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#81"><abbr title="App\Http\Controllers\EntryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#110"><abbr title="App\Http\Controllers\EntryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#138"><abbr title="App\Http\Controllers\EntryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryFileController.php.html#28"><abbr title="App\Http\Controllers\EntryFileController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryFileController.php.html#55"><abbr title="App\Http\Controllers\EntryFileController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#30"><abbr title="App\Http\Controllers\EntryReviewController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#47"><abbr title="App\Http\Controllers\EntryReviewController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#63"><abbr title="App\Http\Controllers\EntryReviewController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#86"><abbr title="App\Http\Controllers\EntryReviewController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#110"><abbr title="App\Http\Controllers\EntryReviewController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#33"><abbr title="App\Http\Controllers\InstitutionController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#80"><abbr title="App\Http\Controllers\InstitutionController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#120"><abbr title="App\Http\Controllers\InstitutionController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#156"><abbr title="App\Http\Controllers\InstitutionController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#207"><abbr title="App\Http\Controllers\InstitutionController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#28"><abbr title="App\Http\Controllers\LinkCategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#47"><abbr title="App\Http\Controllers\LinkCategoryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#71"><abbr title="App\Http\Controllers\LinkCategoryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#97"><abbr title="App\Http\Controllers\LinkCategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#132"><abbr title="App\Http\Controllers\LinkCategoryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#28"><abbr title="App\Http\Controllers\LinkController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#49"><abbr title="App\Http\Controllers\LinkController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#73"><abbr title="App\Http\Controllers\LinkController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#101"><abbr title="App\Http\Controllers\LinkController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#136"><abbr title="App\Http\Controllers\LinkController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ModuleController.php.html#26"><abbr title="App\Http\Controllers\ModuleController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#34"><abbr title="App\Http\Controllers\NewsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#61"><abbr title="App\Http\Controllers\NewsController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#108"><abbr title="App\Http\Controllers\NewsController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#143"><abbr title="App\Http\Controllers\NewsController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#213"><abbr title="App\Http\Controllers\NewsController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#26"><abbr title="App\Http\Controllers\PageCategoryController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#44"><abbr title="App\Http\Controllers\PageCategoryController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#62"><abbr title="App\Http\Controllers\PageCategoryController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#87"><abbr title="App\Http\Controllers\PageCategoryController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#114"><abbr title="App\Http\Controllers\PageCategoryController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#33"><abbr title="App\Http\Controllers\PageController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#57"><abbr title="App\Http\Controllers\PageController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#92"><abbr title="App\Http\Controllers\PageController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#124"><abbr title="App\Http\Controllers\PageController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#158"><abbr title="App\Http\Controllers\PageController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#27"><abbr title="App\Http\Controllers\ReportController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#46"><abbr title="App\Http\Controllers\ReportController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#76"><abbr title="App\Http\Controllers\ReportController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#102"><abbr title="App\Http\Controllers\ReportController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#135"><abbr title="App\Http\Controllers\ReportController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#30"><abbr title="App\Http\Controllers\RoleController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#46"><abbr title="App\Http\Controllers\RoleController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#66"><abbr title="App\Http\Controllers\RoleController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#90"><abbr title="App\Http\Controllers\RoleController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#119"><abbr title="App\Http\Controllers\RoleController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#34"><abbr title="App\Http\Controllers\SectorController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#74"><abbr title="App\Http\Controllers\SectorController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#118"><abbr title="App\Http\Controllers\SectorController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#149"><abbr title="App\Http\Controllers\SectorController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#218"><abbr title="App\Http\Controllers\SectorController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#36"><abbr title="App\Http\Controllers\ServiceController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#83"><abbr title="App\Http\Controllers\ServiceController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#127"><abbr title="App\Http\Controllers\ServiceController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#165"><abbr title="App\Http\Controllers\ServiceController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#218"><abbr title="App\Http\Controllers\ServiceController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#31"><abbr title="App\Http\Controllers\TagController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#48"><abbr title="App\Http\Controllers\TagController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#65"><abbr title="App\Http\Controllers\TagController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#89"><abbr title="App\Http\Controllers\TagController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#114"><abbr title="App\Http\Controllers\TagController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#34"><abbr title="App\Http\Controllers\UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#55"><abbr title="App\Http\Controllers\UserController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#76"><abbr title="App\Http\Controllers\UserController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#118"><abbr title="App\Http\Controllers\UserController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#152"><abbr title="App\Http\Controllers\UserController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#179"><abbr title="App\Http\Controllers\UserController::token">token</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#223"><abbr title="App\Http\Controllers\UserController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#252"><abbr title="App\Http\Controllers\UserController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#15"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RecaptchaMiddleware.php.html#17"><abbr title="App\Http\Middleware\RecaptchaMiddleware::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#14"><abbr title="App\Http\Middleware\TrustHosts::hosts">hosts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CategoryRequest.php.html#15"><abbr title="App\Http\Requests\CategoryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CategoryRequest.php.html#25"><abbr title="App\Http\Requests\CategoryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CategoryRequest.php.html#56"><abbr title="App\Http\Requests\CategoryRequest::queryParameters">queryParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryFileRequest.php.html#14"><abbr title="App\Http\Requests\EntryFileRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryFileRequest.php.html#24"><abbr title="App\Http\Requests\EntryFileRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryRequest.php.html#14"><abbr title="App\Http\Requests\EntryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryRequest.php.html#24"><abbr title="App\Http\Requests\EntryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryReviewRequest.php.html#14"><abbr title="App\Http\Requests\EntryReviewRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/EntryReviewRequest.php.html#24"><abbr title="App\Http\Requests\EntryReviewRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/InstitutionRequest.php.html#15"><abbr title="App\Http\Requests\InstitutionRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/InstitutionRequest.php.html#25"><abbr title="App\Http\Requests\InstitutionRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LinkCategoryRequest.php.html#14"><abbr title="App\Http\Requests\LinkCategoryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LinkCategoryRequest.php.html#24"><abbr title="App\Http\Requests\LinkCategoryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LinkRequest.php.html#14"><abbr title="App\Http\Requests\LinkRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LinkRequest.php.html#24"><abbr title="App\Http\Requests\LinkRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/NewsRequest.php.html#15"><abbr title="App\Http\Requests\NewsRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/NewsRequest.php.html#25"><abbr title="App\Http\Requests\NewsRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/PageCategoryRequest.php.html#14"><abbr title="App\Http\Requests\PageCategoryRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/PageCategoryRequest.php.html#24"><abbr title="App\Http\Requests\PageCategoryRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/PageRequest.php.html#15"><abbr title="App\Http\Requests\PageRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/PageRequest.php.html#25"><abbr title="App\Http\Requests\PageRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ReportRequest.php.html#16"><abbr title="App\Http\Requests\ReportRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ReportRequest.php.html#26"><abbr title="App\Http\Requests\ReportRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Request.php.html#15"><abbr title="App\Http\Requests\Request::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Request.php.html#25"><abbr title="App\Http\Requests\Request::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectorRequest.php.html#15"><abbr title="App\Http\Requests\SectorRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectorRequest.php.html#25"><abbr title="App\Http\Requests\SectorRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ServiceRequest.php.html#14"><abbr title="App\Http\Requests\ServiceRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ServiceRequest.php.html#24"><abbr title="App\Http\Requests\ServiceRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/TagRequest.php.html#15"><abbr title="App\Http\Requests\TagRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/TagRequest.php.html#25"><abbr title="App\Http\Requests\TagRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#63"><abbr title="App\Models\Category::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#87"><abbr title="App\Models\Category::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#98"><abbr title="App\Models\Category::sector">sector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#103"><abbr title="App\Models\Category::getSectorAttribute">getSectorAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Category.php.html#108"><abbr title="App\Models\Category::services">services</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Entry.php.html#53"><abbr title="App\Models\Entry::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Entry.php.html#105"><abbr title="App\Models\Entry::status">status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Entry.php.html#118"><abbr title="App\Models\Entry::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Entry.php.html#123"><abbr title="App\Models\Entry::service">service</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Entry.php.html#128"><abbr title="App\Models\Entry::files">files</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryFile.php.html#39"><abbr title="App\Models\EntryFile::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryFile.php.html#48"><abbr title="App\Models\EntryFile::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryFile.php.html#64"><abbr title="App\Models\EntryFile::saveFile">saveFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryFile.php.html#85"><abbr title="App\Models\EntryFile::entry">entry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryReview.php.html#45"><abbr title="App\Models\EntryReview::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryReview.php.html#54"><abbr title="App\Models\EntryReview::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryReview.php.html#88"><abbr title="App\Models\EntryReview::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/EntryReview.php.html#93"><abbr title="App\Models\EntryReview::entry">entry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Institution.php.html#71"><abbr title="App\Models\Institution::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Institution.php.html#91"><abbr title="App\Models\Institution::services">services</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Link.php.html#51"><abbr title="App\Models\Link::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Link.php.html#75"><abbr title="App\Models\Link::category">category</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkCategory.php.html#53"><abbr title="App\Models\LinkCategory::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkCategory.php.html#79"><abbr title="App\Models\LinkCategory::parent">parent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkCategory.php.html#84"><abbr title="App\Models\LinkCategory::getParentAttribute">getParentAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkCategory.php.html#89"><abbr title="App\Models\LinkCategory::childs">childs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkCategoryTranslation.php.html#37"><abbr title="App\Models\LinkCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/LinkTranslation.php.html#37"><abbr title="App\Models\LinkTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Module.php.html#24"><abbr title="App\Models\Module::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Module.php.html#78"><abbr title="App\Models\Module::parent">parent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Module.php.html#83"><abbr title="App\Models\Module::getParentAttribute">getParentAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Module.php.html#88"><abbr title="App\Models\Module::childs">childs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Module.php.html#94"><abbr title="App\Models\Module::roles">roles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/News.php.html#61"><abbr title="App\Models\News::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/News.php.html#81"><abbr title="App\Models\News::tags">tags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/News.php.html#88"><abbr title="App\Models\News::setTags">setTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/NewsTranslation.php.html#44"><abbr title="App\Models\NewsTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Page.php.html#54"><abbr title="App\Models\Page::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Page.php.html#72"><abbr title="App\Models\Page::category">category</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageCategory.php.html#47"><abbr title="App\Models\PageCategory::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageCategory.php.html#67"><abbr title="App\Models\PageCategory::parent">parent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageCategory.php.html#72"><abbr title="App\Models\PageCategory::getParentAttribute">getParentAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageCategory.php.html#77"><abbr title="App\Models\PageCategory::childs">childs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageCategoryTranslation.php.html#37"><abbr title="App\Models\PageCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/PageTranslation.php.html#44"><abbr title="App\Models\PageTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Report.php.html#52"><abbr title="App\Models\Report::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Report.php.html#69"><abbr title="App\Models\Report::saveFile">saveFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#46"><abbr title="App\Models\Role::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#69"><abbr title="App\Models\Role::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#97"><abbr title="App\Models\Role::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#104"><abbr title="App\Models\Role::users">users</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#109"><abbr title="App\Models\Role::modules">modules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Role.php.html#116"><abbr title="App\Models\Role::setModules">setModules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/RoleModule.php.html#48"><abbr title="App\Models\RoleModule::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Sector.php.html#73"><abbr title="App\Models\Sector::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Sector.php.html#93"><abbr title="App\Models\Sector::categories">categories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Sector.php.html#100"><abbr title="App\Models\Sector::services">services</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#58"><abbr title="App\Models\Service::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#90"><abbr title="App\Models\Service::sector">sector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#95"><abbr title="App\Models\Service::getSectorAttribute">getSectorAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#100"><abbr title="App\Models\Service::category">category</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#106"><abbr title="App\Models\Service::getCategoryAttribute">getCategoryAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#111"><abbr title="App\Models\Service::institution">institution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#116"><abbr title="App\Models\Service::getInstitutionAttribute">getInstitutionAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#121"><abbr title="App\Models\Service::tags">tags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Service.php.html#127"><abbr title="App\Models\Service::setTags">setTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/ServiceTranslation.php.html#44"><abbr title="App\Models\ServiceTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Tag.php.html#48"><abbr title="App\Models\Tag::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/TagRel.php.html#33"><abbr title="App\Models\TagRel::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#47"><abbr title="App\Models\User::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#70"><abbr title="App\Models\User::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#101"><abbr title="App\Models\User::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#114"><abbr title="App\Models\User::roles">roles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#119"><abbr title="App\Models\User::setRoles">setRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/UserRole.php.html#46"><abbr title="App\Models\UserRole::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#15"><abbr title="App\Providers\BroadcastServiceProvider::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/Request.php.html#30"><abbr title="App\Http\Requests\Request::makeOrderBy">makeOrderBy</abbr></a></td><td class="text-right">31%</td></tr>
+       <tr><td><a href="Models/FeedBack.php.html#69"><abbr title="App\Models\FeedBack::getAll">getAll</abbr></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="Http/Middleware/SetLocale.php.html#18"><abbr title="App\Http\Middleware\SetLocale::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Models/FeedBack.php.html#97"><abbr title="App\Models\FeedBack::status">status</abbr></a></td><td class="text-right">71%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#437"><abbr title="App\Helpers\FineDiffHelper::doFragmentDiff">doFragmentDiff</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#143"><abbr title="App\Http\Controllers\NewsController::update">update</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#149"><abbr title="App\Http\Controllers\SectorController::update">update</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#602"><abbr title="App\Helpers\FineDiffHelper::doCharDiff">doCharDiff</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Models/LinkCategoryTranslation.php.html#37"><abbr title="App\Models\LinkCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/LinkTranslation.php.html#37"><abbr title="App\Models\LinkTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/NewsTranslation.php.html#44"><abbr title="App\Models\NewsTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/PageCategoryTranslation.php.html#37"><abbr title="App\Models\PageCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/PageTranslation.php.html#44"><abbr title="App\Models\PageTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Models/ServiceTranslation.php.html#44"><abbr title="App\Models\ServiceTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#122"><abbr title="App\Http\Controllers\CategoryController::update">update</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#156"><abbr title="App\Http\Controllers\InstitutionController::update">update</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#165"><abbr title="App\Http\Controllers\ServiceController::update">update</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Models/Module.php.html#24"><abbr title="App\Models\Module::getAll">getAll</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Models/Entry.php.html#105"><abbr title="App\Models\Entry::status">status</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#12"><abbr title="App\Helpers\ImageHelper::create_image_from_base64">create_image_from_base64</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Http/Middleware/RecaptchaMiddleware.php.html#17"><abbr title="App\Http\Middleware\RecaptchaMiddleware::handle">handle</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#126"><abbr title="App\Helpers\ImageHelper::create_image_from_post">create_image_from_post</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#61"><abbr title="App\Http\Controllers\NewsController::create">create</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#74"><abbr title="App\Http\Controllers\SectorController::create">create</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#295"><abbr title="App\Helpers\FineDiffHelper::renderFromOpcodes">renderFromOpcodes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#398"><abbr title="App\Helpers\FineDiffHelper::_processGranularity">_processGranularity</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#52"><abbr title="App\Http\Controllers\CategoryController::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#80"><abbr title="App\Http\Controllers\InstitutionController::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#97"><abbr title="App\Http\Controllers\LinkCategoryController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#101"><abbr title="App\Http\Controllers\LinkController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#102"><abbr title="App\Http\Controllers\ReportController::update">update</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#83"><abbr title="App\Http\Controllers\ServiceController::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/Role.php.html#46"><abbr title="App\Models\Role::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/Role.php.html#116"><abbr title="App\Models\Role::setModules">setModules</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/User.php.html#47"><abbr title="App\Models\User::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#222"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTML">renderDiffToHTML</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Helpers/ImageHelper.php.html#72"><abbr title="App\Helpers\ImageHelper::create_image_from_url">create_image_from_url</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#57"><abbr title="App\Http\Controllers\PageController::create">create</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Requests/Request.php.html#30"><abbr title="App\Http\Requests\Request::makeOrderBy">makeOrderBy</abbr></a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#694"><abbr title="App\Helpers\FineDiffHelper::extractFragments">extractFragments</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#733"><abbr title="App\Helpers\FineDiffHelper::renderDiffToHTMLFromOpcode">renderDiffToHTMLFromOpcode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#124"><abbr title="App\Http\Controllers\PageController::update">update</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#76"><abbr title="App\Http\Controllers\UserController::show">show</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#179"><abbr title="App\Http\Controllers\UserController::token">token</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#20"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/CategoryRequest.php.html#25"><abbr title="App\Http\Requests\CategoryRequest::rules">rules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Requests/ReportRequest.php.html#26"><abbr title="App\Http\Requests\ReportRequest::rules">rules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/News.php.html#88"><abbr title="App\Models\News::setTags">setTags</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/Service.php.html#127"><abbr title="App\Models\Service::setTags">setTags</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/User.php.html#101"><abbr title="App\Models\User::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/User.php.html#119"><abbr title="App\Models\User::setRoles">setRoles</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#97"><abbr title="App\Helpers\FineDiffReplaceOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#158"><abbr title="App\Helpers\FineDiffOps::appendOpcode">appendOpcode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#725"><abbr title="App\Helpers\FineDiffHelper::renderToTextFromOpcode">renderToTextFromOpcode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#54"><abbr title="App\Http\Controllers\EntryController::create">create</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#110"><abbr title="App\Http\Controllers\EntryController::update">update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#33"><abbr title="App\Http\Controllers\InstitutionController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#46"><abbr title="App\Http\Controllers\ReportController::create">create</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#34"><abbr title="App\Http\Controllers\SectorController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#36"><abbr title="App\Http\Controllers\ServiceController::index">index</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#118"><abbr title="App\Http\Controllers\UserController::update">update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/EntryRequest.php.html#24"><abbr title="App\Http\Requests\EntryRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/EntryReviewRequest.php.html#24"><abbr title="App\Http\Requests\EntryReviewRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/InstitutionRequest.php.html#25"><abbr title="App\Http\Requests\InstitutionRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/LinkCategoryRequest.php.html#24"><abbr title="App\Http\Requests\LinkCategoryRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/LinkRequest.php.html#24"><abbr title="App\Http\Requests\LinkRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/NewsRequest.php.html#25"><abbr title="App\Http\Requests\NewsRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/PageCategoryRequest.php.html#24"><abbr title="App\Http\Requests\PageCategoryRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/PageRequest.php.html#25"><abbr title="App\Http\Requests\PageRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/SectorRequest.php.html#25"><abbr title="App\Http\Requests\SectorRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/ServiceRequest.php.html#24"><abbr title="App\Http\Requests\ServiceRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Requests/TagRequest.php.html#25"><abbr title="App\Http\Requests\TagRequest::rules">rules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/Category.php.html#87"><abbr title="App\Models\Category::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#30"><abbr title="App\Helpers\FineDiffDeleteOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#63"><abbr title="App\Helpers\FineDiffInsertOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#135"><abbr title="App\Helpers\FineDiffCopyOp::getOpcode">getOpcode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#199"><abbr title="App\Helpers\FineDiffHelper::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#213"><abbr title="App\Helpers\FineDiffHelper::getOpcodes">getOpcodes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helpers/FineDiffHelper.php.html#377"><abbr title="App\Helpers\FineDiffHelper::doDiff">doDiff</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#92"><abbr title="App\Http\Controllers\CategoryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/CategoryController.php.html#173"><abbr title="App\Http\Controllers\CategoryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#81"><abbr title="App\Http\Controllers\EntryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/EntryController.php.html#138"><abbr title="App\Http\Controllers\EntryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/EntryFileController.php.html#28"><abbr title="App\Http\Controllers\EntryFileController::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/EntryFileController.php.html#55"><abbr title="App\Http\Controllers\EntryFileController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#63"><abbr title="App\Http\Controllers\EntryReviewController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#86"><abbr title="App\Http\Controllers\EntryReviewController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/EntryReviewController.php.html#110"><abbr title="App\Http\Controllers\EntryReviewController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#120"><abbr title="App\Http\Controllers\InstitutionController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/InstitutionController.php.html#207"><abbr title="App\Http\Controllers\InstitutionController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#47"><abbr title="App\Http\Controllers\LinkCategoryController::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#71"><abbr title="App\Http\Controllers\LinkCategoryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LinkCategoryController.php.html#132"><abbr title="App\Http\Controllers\LinkCategoryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#49"><abbr title="App\Http\Controllers\LinkController::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#73"><abbr title="App\Http\Controllers\LinkController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/LinkController.php.html#136"><abbr title="App\Http\Controllers\LinkController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#108"><abbr title="App\Http\Controllers\NewsController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/NewsController.php.html#213"><abbr title="App\Http\Controllers\NewsController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#62"><abbr title="App\Http\Controllers\PageCategoryController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#87"><abbr title="App\Http\Controllers\PageCategoryController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/PageCategoryController.php.html#114"><abbr title="App\Http\Controllers\PageCategoryController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#92"><abbr title="App\Http\Controllers\PageController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/PageController.php.html#158"><abbr title="App\Http\Controllers\PageController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#76"><abbr title="App\Http\Controllers\ReportController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ReportController.php.html#135"><abbr title="App\Http\Controllers\ReportController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#66"><abbr title="App\Http\Controllers\RoleController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#90"><abbr title="App\Http\Controllers\RoleController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/RoleController.php.html#119"><abbr title="App\Http\Controllers\RoleController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#118"><abbr title="App\Http\Controllers\SectorController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/SectorController.php.html#218"><abbr title="App\Http\Controllers\SectorController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#127"><abbr title="App\Http\Controllers\ServiceController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ServiceController.php.html#218"><abbr title="App\Http\Controllers\ServiceController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#65"><abbr title="App\Http\Controllers\TagController::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#89"><abbr title="App\Http\Controllers\TagController::update">update</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/TagController.php.html#114"><abbr title="App\Http\Controllers\TagController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#152"><abbr title="App\Http\Controllers\UserController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#223"><abbr title="App\Http\Controllers\UserController::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#252"><abbr title="App\Http\Controllers\UserController::logout">logout</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#15"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Requests/EntryFileRequest.php.html#24"><abbr title="App\Http\Requests\EntryFileRequest::rules">rules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/EntryFile.php.html#64"><abbr title="App\Models\EntryFile::saveFile">saveFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/Report.php.html#69"><abbr title="App\Models\Report::saveFile">saveFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/Role.php.html#97"><abbr title="App\Models\Role::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/FeedBack.php.html#97"><abbr title="App\Models\FeedBack::status">status</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Http/Middleware/SetLocale.php.html#18"><abbr title="App\Http\Middleware\SetLocale::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.10</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.14</a> and <a href="https://phpunit.de/">PHPUnit 9.5.13</a> at Wed Feb 23 15:51:02 UTC 2022.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js" type="text/javascript"></script>
+  <script src="_js/d3.min.js" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([69,0,0,1,0,0,0,3,0,0,1,18], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([234,0,0,0,1,0,1,1,1,0,1,19], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[60,2,"<a href=\"Console\/Kernel.php.html#8\">App\\Console\\Kernel<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#8\">App\\Exceptions\\Handler<\/a>"],[100,0,"<a href=\"Helpers\/FineDiffHelper.php.html#5\">App\\Helpers\\FineDiffOp<\/a>"],[0,5,"<a href=\"Helpers\/FineDiffHelper.php.html#12\">App\\Helpers\\FineDiffDeleteOp<\/a>"],[0,6,"<a href=\"Helpers\/FineDiffHelper.php.html#40\">App\\Helpers\\FineDiffInsertOp<\/a>"],[0,7,"<a href=\"Helpers\/FineDiffHelper.php.html#73\">App\\Helpers\\FineDiffReplaceOp<\/a>"],[0,6,"<a href=\"Helpers\/FineDiffHelper.php.html#117\">App\\Helpers\\FineDiffCopyOp<\/a>"],[0,3,"<a href=\"Helpers\/FineDiffHelper.php.html#156\">App\\Helpers\\FineDiffOps<\/a>"],[0,77,"<a href=\"Helpers\/FineDiffHelper.php.html#183\">App\\Helpers\\FineDiffHelper<\/a>"],[0,23,"<a href=\"Helpers\/ImageHelper.php.html#10\">App\\Helpers\\ImageHelper<\/a>"],[0,22,"<a href=\"Http\/Controllers\/CategoryController.php.html#17\">App\\Http\\Controllers\\CategoryController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Controller.php.html#10\">App\\Http\\Controllers\\Controller<\/a>"],[0,11,"<a href=\"Http\/Controllers\/EntryController.php.html#19\">App\\Http\\Controllers\\EntryController<\/a>"],[0,4,"<a href=\"Http\/Controllers\/EntryFileController.php.html#12\">App\\Http\\Controllers\\EntryFileController<\/a>"],[0,8,"<a href=\"Http\/Controllers\/EntryReviewController.php.html#16\">App\\Http\\Controllers\\EntryReviewController<\/a>"],[97.14285714285714,10,"<a href=\"Http\/Controllers\/FeedBackController.php.html#10\">App\\Http\\Controllers\\FeedBackController<\/a>"],[0,24,"<a href=\"Http\/Controllers\/InstitutionController.php.html#17\">App\\Http\\Controllers\\InstitutionController<\/a>"],[0,13,"<a href=\"Http\/Controllers\/LinkCategoryController.php.html#12\">App\\Http\\Controllers\\LinkCategoryController<\/a>"],[0,13,"<a href=\"Http\/Controllers\/LinkController.php.html#13\">App\\Http\\Controllers\\LinkController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ModuleController.php.html#15\">App\\Http\\Controllers\\ModuleController<\/a>"],[0,28,"<a href=\"Http\/Controllers\/NewsController.php.html#18\">App\\Http\\Controllers\\NewsController<\/a>"],[0,8,"<a href=\"Http\/Controllers\/PageCategoryController.php.html#11\">App\\Http\\Controllers\\PageCategoryController<\/a>"],[0,14,"<a href=\"Http\/Controllers\/PageController.php.html#18\">App\\Http\\Controllers\\PageController<\/a>"],[0,14,"<a href=\"Http\/Controllers\/ReportController.php.html#12\">App\\Http\\Controllers\\ReportController<\/a>"],[0,8,"<a href=\"Http\/Controllers\/RoleController.php.html#16\">App\\Http\\Controllers\\RoleController<\/a>"],[0,30,"<a href=\"Http\/Controllers\/SectorController.php.html#18\">App\\Http\\Controllers\\SectorController<\/a>"],[0,24,"<a href=\"Http\/Controllers\/ServiceController.php.html#16\">App\\Http\\Controllers\\ServiceController<\/a>"],[0,8,"<a href=\"Http\/Controllers\/TagController.php.html#17\">App\\Http\\Controllers\\TagController<\/a>"],[0,19,"<a href=\"Http\/Controllers\/UserController.php.html#20\">App\\Http\\Controllers\\UserController<\/a>"],[100,0,"<a href=\"Http\/Kernel.php.html#7\">App\\Http\\Kernel<\/a>"],[0,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#7\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,0,"<a href=\"Http\/Middleware\/EncryptCookies.php.html#7\">App\\Http\\Middleware\\EncryptCookies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/PreventRequestsDuringMaintenance.php.html#7\">App\\Http\\Middleware\\PreventRequestsDuringMaintenance<\/a>"],[0,9,"<a href=\"Http\/Middleware\/RecaptchaMiddleware.php.html#8\">App\\Http\\Middleware\\RecaptchaMiddleware<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#10\">App\\Http\\Middleware\\RedirectIfAuthenticated<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/SetLocale.php.html#9\">App\\Http\\Middleware\\SetLocale<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrimStrings.php.html#7\">App\\Http\\Middleware\\TrimStrings<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#7\">App\\Http\\Middleware\\TrustHosts<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrustProxies.php.html#8\">App\\Http\\Middleware\\TrustProxies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/VerifyCsrfToken.php.html#7\">App\\Http\\Middleware\\VerifyCsrfToken<\/a>"],[0,6,"<a href=\"Http\/Requests\/CategoryRequest.php.html#8\">App\\Http\\Requests\\CategoryRequest<\/a>"],[0,3,"<a href=\"Http\/Requests\/EntryFileRequest.php.html#7\">App\\Http\\Requests\\EntryFileRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/EntryRequest.php.html#7\">App\\Http\\Requests\\EntryRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/EntryReviewRequest.php.html#7\">App\\Http\\Requests\\EntryReviewRequest<\/a>"],[100,4,"<a href=\"Http\/Requests\/FeedBackRequest.php.html#7\">App\\Http\\Requests\\FeedBackRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/InstitutionRequest.php.html#8\">App\\Http\\Requests\\InstitutionRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/LinkCategoryRequest.php.html#7\">App\\Http\\Requests\\LinkCategoryRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/LinkRequest.php.html#7\">App\\Http\\Requests\\LinkRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/NewsRequest.php.html#8\">App\\Http\\Requests\\NewsRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/PageCategoryRequest.php.html#7\">App\\Http\\Requests\\PageCategoryRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/PageRequest.php.html#8\">App\\Http\\Requests\\PageRequest<\/a>"],[0,5,"<a href=\"Http\/Requests\/ReportRequest.php.html#9\">App\\Http\\Requests\\ReportRequest<\/a>"],[27.77777777777778,9,"<a href=\"Http\/Requests\/Request.php.html#8\">App\\Http\\Requests\\Request<\/a>"],[0,4,"<a href=\"Http\/Requests\/SectorRequest.php.html#8\">App\\Http\\Requests\\SectorRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/ServiceRequest.php.html#7\">App\\Http\\Requests\\ServiceRequest<\/a>"],[0,4,"<a href=\"Http\/Requests\/TagRequest.php.html#8\">App\\Http\\Requests\\TagRequest<\/a>"],[0,7,"<a href=\"Models\/Category.php.html#13\">App\\Models\\Category<\/a>"],[100,0,"<a href=\"Models\/CategoryTranslation.php.html#9\">App\\Models\\CategoryTranslation<\/a>"],[0,14,"<a href=\"Models\/Entry.php.html#13\">App\\Models\\Entry<\/a>"],[0,5,"<a href=\"Models\/EntryFile.php.html#10\">App\\Models\\EntryFile<\/a>"],[0,4,"<a href=\"Models\/EntryReview.php.html#10\">App\\Models\\EntryReview<\/a>"],[64.70588235294117,8,"<a href=\"Models\/FeedBack.php.html#11\">App\\Models\\FeedBack<\/a>"],[0,2,"<a href=\"Models\/Institution.php.html#13\">App\\Models\\Institution<\/a>"],[100,0,"<a href=\"Models\/InstitutionTranslation.php.html#9\">App\\Models\\InstitutionTranslation<\/a>"],[0,2,"<a href=\"Models\/Link.php.html#13\">App\\Models\\Link<\/a>"],[0,4,"<a href=\"Models\/LinkCategory.php.html#13\">App\\Models\\LinkCategory<\/a>"],[0,12,"<a href=\"Models\/LinkCategoryTranslation.php.html#10\">App\\Models\\LinkCategoryTranslation<\/a>"],[0,12,"<a href=\"Models\/LinkTranslation.php.html#10\">App\\Models\\LinkTranslation<\/a>"],[0,15,"<a href=\"Models\/Module.php.html#9\">App\\Models\\Module<\/a>"],[0,6,"<a href=\"Models\/News.php.html#13\">App\\Models\\News<\/a>"],[0,12,"<a href=\"Models\/NewsTranslation.php.html#10\">App\\Models\\NewsTranslation<\/a>"],[0,2,"<a href=\"Models\/Page.php.html#13\">App\\Models\\Page<\/a>"],[0,4,"<a href=\"Models\/PageCategory.php.html#13\">App\\Models\\PageCategory<\/a>"],[0,12,"<a href=\"Models\/PageCategoryTranslation.php.html#10\">App\\Models\\PageCategoryTranslation<\/a>"],[0,12,"<a href=\"Models\/PageTranslation.php.html#10\">App\\Models\\PageTranslation<\/a>"],[0,3,"<a href=\"Models\/Report.php.html#11\">App\\Models\\Report<\/a>"],[0,17,"<a href=\"Models\/Role.php.html#14\">App\\Models\\Role<\/a>"],[0,1,"<a href=\"Models\/RoleModule.php.html#10\">App\\Models\\RoleModule<\/a>"],[0,3,"<a href=\"Models\/Sector.php.html#15\">App\\Models\\Sector<\/a>"],[100,0,"<a href=\"Models\/SectorTranslation.php.html#9\">App\\Models\\SectorTranslation<\/a>"],[0,12,"<a href=\"Models\/Service.php.html#13\">App\\Models\\Service<\/a>"],[0,12,"<a href=\"Models\/ServiceTranslation.php.html#10\">App\\Models\\ServiceTranslation<\/a>"],[0,1,"<a href=\"Models\/Tag.php.html#14\">App\\Models\\Tag<\/a>"],[0,1,"<a href=\"Models\/TagRel.php.html#9\">App\\Models\\TagRel<\/a>"],[100,0,"<a href=\"Models\/TagTranslation.php.html#10\">App\\Models\\TagTranslation<\/a>"],[0,16,"<a href=\"Models\/User.php.html#17\">App\\Models\\User<\/a>"],[0,1,"<a href=\"Models\/UserRole.php.html#10\">App\\Models\\UserRole<\/a>"],[100,2,"<a href=\"Providers\/AppServiceProvider.php.html#7\">App\\Providers\\AppServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#8\">App\\Providers\\AuthServiceProvider<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#8\">App\\Providers\\BroadcastServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#10\">App\\Providers\\EventServiceProvider<\/a>"],[100,3,"<a href=\"Providers\/RouteServiceProvider.php.html#11\">App\\Providers\\RouteServiceProvider<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Console\/Kernel.php.html#16\">App\\Console\\Kernel::schedule<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#27\">App\\Console\\Kernel::commands<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#35\">App\\Exceptions\\Handler::register<\/a>"],[100,0,"<a href=\"Helpers\/FineDiffHelper.php.html#7\">App\\Helpers\\FineDiffOp::getFromLen<\/a>"],[100,0,"<a href=\"Helpers\/FineDiffHelper.php.html#8\">App\\Helpers\\FineDiffOp::getToLen<\/a>"],[100,0,"<a href=\"Helpers\/FineDiffHelper.php.html#9\">App\\Helpers\\FineDiffOp::getOpcode<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#15\">App\\Helpers\\FineDiffDeleteOp::__construct<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#20\">App\\Helpers\\FineDiffDeleteOp::getFromLen<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#25\">App\\Helpers\\FineDiffDeleteOp::getToLen<\/a>"],[0,2,"<a href=\"Helpers\/FineDiffHelper.php.html#30\">App\\Helpers\\FineDiffDeleteOp::getOpcode<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#43\">App\\Helpers\\FineDiffInsertOp::__construct<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#48\">App\\Helpers\\FineDiffInsertOp::getFromLen<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#53\">App\\Helpers\\FineDiffInsertOp::getToLen<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#58\">App\\Helpers\\FineDiffInsertOp::getText<\/a>"],[0,2,"<a href=\"Helpers\/FineDiffHelper.php.html#63\">App\\Helpers\\FineDiffInsertOp::getOpcode<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#76\">App\\Helpers\\FineDiffReplaceOp::__construct<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#82\">App\\Helpers\\FineDiffReplaceOp::getFromLen<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#87\">App\\Helpers\\FineDiffReplaceOp::getToLen<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#92\">App\\Helpers\\FineDiffReplaceOp::getText<\/a>"],[0,3,"<a href=\"Helpers\/FineDiffHelper.php.html#97\">App\\Helpers\\FineDiffReplaceOp::getOpcode<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#120\">App\\Helpers\\FineDiffCopyOp::__construct<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#125\">App\\Helpers\\FineDiffCopyOp::getFromLen<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#130\">App\\Helpers\\FineDiffCopyOp::getToLen<\/a>"],[0,2,"<a href=\"Helpers\/FineDiffHelper.php.html#135\">App\\Helpers\\FineDiffCopyOp::getOpcode<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#144\">App\\Helpers\\FineDiffCopyOp::increase<\/a>"],[0,3,"<a href=\"Helpers\/FineDiffHelper.php.html#158\">App\\Helpers\\FineDiffOps::appendOpcode<\/a>"],[0,2,"<a href=\"Helpers\/FineDiffHelper.php.html#199\">App\\Helpers\\FineDiffHelper::__construct<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#208\">App\\Helpers\\FineDiffHelper::getOps<\/a>"],[0,2,"<a href=\"Helpers\/FineDiffHelper.php.html#213\">App\\Helpers\\FineDiffHelper::getOpcodes<\/a>"],[0,5,"<a href=\"Helpers\/FineDiffHelper.php.html#222\">App\\Helpers\\FineDiffHelper::renderDiffToHTML<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#255\">App\\Helpers\\FineDiffHelper::getDiffOpcodes<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#264\">App\\Helpers\\FineDiffHelper::getDiffOpsFromOpcodes<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#274\">App\\Helpers\\FineDiffHelper::renderToTextFromOpcodes<\/a>"],[0,1,"<a href=\"Helpers\/FineDiffHelper.php.html#284\">App\\Helpers\\FineDiffHelper::renderDiffToHTMLFromOpcodes<\/a>"],[0,6,"<a href=\"Helpers\/FineDiffHelper.php.html#295\">App\\Helpers\\FineDiffHelper::renderFromOpcodes<\/a>"],[0,2,"<a href=\"Helpers\/FineDiffHelper.php.html#377\">App\\Helpers\\FineDiffHelper::doDiff<\/a>"],[0,6,"<a href=\"Helpers\/FineDiffHelper.php.html#398\">App\\Helpers\\FineDiffHelper::_processGranularity<\/a>"],[0,24,"<a href=\"Helpers\/FineDiffHelper.php.html#437\">App\\Helpers\\FineDiffHelper::doFragmentDiff<\/a>"],[0,14,"<a href=\"Helpers\/FineDiffHelper.php.html#602\">App\\Helpers\\FineDiffHelper::doCharDiff<\/a>"],[0,4,"<a href=\"Helpers\/FineDiffHelper.php.html#694\">App\\Helpers\\FineDiffHelper::extractFragments<\/a>"],[0,3,"<a href=\"Helpers\/FineDiffHelper.php.html#725\">App\\Helpers\\FineDiffHelper::renderToTextFromOpcode<\/a>"],[0,4,"<a href=\"Helpers\/FineDiffHelper.php.html#733\">App\\Helpers\\FineDiffHelper::renderDiffToHTMLFromOpcode<\/a>"],[0,9,"<a href=\"Helpers\/ImageHelper.php.html#12\">App\\Helpers\\ImageHelper::create_image_from_base64<\/a>"],[0,5,"<a href=\"Helpers\/ImageHelper.php.html#72\">App\\Helpers\\ImageHelper::create_image_from_url<\/a>"],[0,1,"<a href=\"Helpers\/ImageHelper.php.html#106\">App\\Helpers\\ImageHelper::remove_image<\/a>"],[0,1,"<a href=\"Helpers\/ImageHelper.php.html#113\">App\\Helpers\\ImageHelper::copy_image<\/a>"],[0,7,"<a href=\"Helpers\/ImageHelper.php.html#126\">App\\Helpers\\ImageHelper::create_image_from_post<\/a>"],[0,1,"<a href=\"Http\/Controllers\/CategoryController.php.html#29\">App\\Http\\Controllers\\CategoryController::index<\/a>"],[0,6,"<a href=\"Http\/Controllers\/CategoryController.php.html#52\">App\\Http\\Controllers\\CategoryController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/CategoryController.php.html#92\">App\\Http\\Controllers\\CategoryController::show<\/a>"],[0,11,"<a href=\"Http\/Controllers\/CategoryController.php.html#122\">App\\Http\\Controllers\\CategoryController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/CategoryController.php.html#173\">App\\Http\\Controllers\\CategoryController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/EntryController.php.html#33\">App\\Http\\Controllers\\EntryController::index<\/a>"],[0,3,"<a href=\"Http\/Controllers\/EntryController.php.html#54\">App\\Http\\Controllers\\EntryController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/EntryController.php.html#81\">App\\Http\\Controllers\\EntryController::show<\/a>"],[0,3,"<a href=\"Http\/Controllers\/EntryController.php.html#110\">App\\Http\\Controllers\\EntryController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/EntryController.php.html#138\">App\\Http\\Controllers\\EntryController::delete<\/a>"],[0,2,"<a href=\"Http\/Controllers\/EntryFileController.php.html#28\">App\\Http\\Controllers\\EntryFileController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/EntryFileController.php.html#55\">App\\Http\\Controllers\\EntryFileController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/EntryReviewController.php.html#30\">App\\Http\\Controllers\\EntryReviewController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/EntryReviewController.php.html#47\">App\\Http\\Controllers\\EntryReviewController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/EntryReviewController.php.html#63\">App\\Http\\Controllers\\EntryReviewController::show<\/a>"],[0,2,"<a href=\"Http\/Controllers\/EntryReviewController.php.html#86\">App\\Http\\Controllers\\EntryReviewController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/EntryReviewController.php.html#110\">App\\Http\\Controllers\\EntryReviewController::delete<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FeedBackController.php.html#23\">App\\Http\\Controllers\\FeedBackController::index<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FeedBackController.php.html#41\">App\\Http\\Controllers\\FeedBackController::create<\/a>"],[100,2,"<a href=\"Http\/Controllers\/FeedBackController.php.html#57\">App\\Http\\Controllers\\FeedBackController::show<\/a>"],[92.3076923076923,4,"<a href=\"Http\/Controllers\/FeedBackController.php.html#84\">App\\Http\\Controllers\\FeedBackController::update<\/a>"],[100,2,"<a href=\"Http\/Controllers\/FeedBackController.php.html#116\">App\\Http\\Controllers\\FeedBackController::delete<\/a>"],[0,3,"<a href=\"Http\/Controllers\/InstitutionController.php.html#33\">App\\Http\\Controllers\\InstitutionController::index<\/a>"],[0,6,"<a href=\"Http\/Controllers\/InstitutionController.php.html#80\">App\\Http\\Controllers\\InstitutionController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/InstitutionController.php.html#120\">App\\Http\\Controllers\\InstitutionController::show<\/a>"],[0,11,"<a href=\"Http\/Controllers\/InstitutionController.php.html#156\">App\\Http\\Controllers\\InstitutionController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/InstitutionController.php.html#207\">App\\Http\\Controllers\\InstitutionController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/LinkCategoryController.php.html#28\">App\\Http\\Controllers\\LinkCategoryController::index<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LinkCategoryController.php.html#47\">App\\Http\\Controllers\\LinkCategoryController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LinkCategoryController.php.html#71\">App\\Http\\Controllers\\LinkCategoryController::show<\/a>"],[0,6,"<a href=\"Http\/Controllers\/LinkCategoryController.php.html#97\">App\\Http\\Controllers\\LinkCategoryController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LinkCategoryController.php.html#132\">App\\Http\\Controllers\\LinkCategoryController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/LinkController.php.html#28\">App\\Http\\Controllers\\LinkController::index<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LinkController.php.html#49\">App\\Http\\Controllers\\LinkController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LinkController.php.html#73\">App\\Http\\Controllers\\LinkController::show<\/a>"],[0,6,"<a href=\"Http\/Controllers\/LinkController.php.html#101\">App\\Http\\Controllers\\LinkController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/LinkController.php.html#136\">App\\Http\\Controllers\\LinkController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ModuleController.php.html#26\">App\\Http\\Controllers\\ModuleController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/NewsController.php.html#34\">App\\Http\\Controllers\\NewsController::index<\/a>"],[0,7,"<a href=\"Http\/Controllers\/NewsController.php.html#61\">App\\Http\\Controllers\\NewsController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/NewsController.php.html#108\">App\\Http\\Controllers\\NewsController::show<\/a>"],[0,16,"<a href=\"Http\/Controllers\/NewsController.php.html#143\">App\\Http\\Controllers\\NewsController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/NewsController.php.html#213\">App\\Http\\Controllers\\NewsController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/PageCategoryController.php.html#26\">App\\Http\\Controllers\\PageCategoryController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/PageCategoryController.php.html#44\">App\\Http\\Controllers\\PageCategoryController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/PageCategoryController.php.html#62\">App\\Http\\Controllers\\PageCategoryController::show<\/a>"],[0,2,"<a href=\"Http\/Controllers\/PageCategoryController.php.html#87\">App\\Http\\Controllers\\PageCategoryController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/PageCategoryController.php.html#114\">App\\Http\\Controllers\\PageCategoryController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/PageController.php.html#33\">App\\Http\\Controllers\\PageController::index<\/a>"],[0,5,"<a href=\"Http\/Controllers\/PageController.php.html#57\">App\\Http\\Controllers\\PageController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/PageController.php.html#92\">App\\Http\\Controllers\\PageController::show<\/a>"],[0,4,"<a href=\"Http\/Controllers\/PageController.php.html#124\">App\\Http\\Controllers\\PageController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/PageController.php.html#158\">App\\Http\\Controllers\\PageController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ReportController.php.html#27\">App\\Http\\Controllers\\ReportController::index<\/a>"],[0,3,"<a href=\"Http\/Controllers\/ReportController.php.html#46\">App\\Http\\Controllers\\ReportController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ReportController.php.html#76\">App\\Http\\Controllers\\ReportController::show<\/a>"],[0,6,"<a href=\"Http\/Controllers\/ReportController.php.html#102\">App\\Http\\Controllers\\ReportController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ReportController.php.html#135\">App\\Http\\Controllers\\ReportController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RoleController.php.html#30\">App\\Http\\Controllers\\RoleController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RoleController.php.html#46\">App\\Http\\Controllers\\RoleController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/RoleController.php.html#66\">App\\Http\\Controllers\\RoleController::show<\/a>"],[0,2,"<a href=\"Http\/Controllers\/RoleController.php.html#90\">App\\Http\\Controllers\\RoleController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/RoleController.php.html#119\">App\\Http\\Controllers\\RoleController::delete<\/a>"],[0,3,"<a href=\"Http\/Controllers\/SectorController.php.html#34\">App\\Http\\Controllers\\SectorController::index<\/a>"],[0,7,"<a href=\"Http\/Controllers\/SectorController.php.html#74\">App\\Http\\Controllers\\SectorController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/SectorController.php.html#118\">App\\Http\\Controllers\\SectorController::show<\/a>"],[0,16,"<a href=\"Http\/Controllers\/SectorController.php.html#149\">App\\Http\\Controllers\\SectorController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/SectorController.php.html#218\">App\\Http\\Controllers\\SectorController::delete<\/a>"],[0,3,"<a href=\"Http\/Controllers\/ServiceController.php.html#36\">App\\Http\\Controllers\\ServiceController::index<\/a>"],[0,6,"<a href=\"Http\/Controllers\/ServiceController.php.html#83\">App\\Http\\Controllers\\ServiceController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ServiceController.php.html#127\">App\\Http\\Controllers\\ServiceController::show<\/a>"],[0,11,"<a href=\"Http\/Controllers\/ServiceController.php.html#165\">App\\Http\\Controllers\\ServiceController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ServiceController.php.html#218\">App\\Http\\Controllers\\ServiceController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/TagController.php.html#31\">App\\Http\\Controllers\\TagController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/TagController.php.html#48\">App\\Http\\Controllers\\TagController::create<\/a>"],[0,2,"<a href=\"Http\/Controllers\/TagController.php.html#65\">App\\Http\\Controllers\\TagController::show<\/a>"],[0,2,"<a href=\"Http\/Controllers\/TagController.php.html#89\">App\\Http\\Controllers\\TagController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/TagController.php.html#114\">App\\Http\\Controllers\\TagController::delete<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#34\">App\\Http\\Controllers\\UserController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#55\">App\\Http\\Controllers\\UserController::create<\/a>"],[0,4,"<a href=\"Http\/Controllers\/UserController.php.html#76\">App\\Http\\Controllers\\UserController::show<\/a>"],[0,3,"<a href=\"Http\/Controllers\/UserController.php.html#118\">App\\Http\\Controllers\\UserController::update<\/a>"],[0,2,"<a href=\"Http\/Controllers\/UserController.php.html#152\">App\\Http\\Controllers\\UserController::delete<\/a>"],[0,4,"<a href=\"Http\/Controllers\/UserController.php.html#179\">App\\Http\\Controllers\\UserController::token<\/a>"],[0,2,"<a href=\"Http\/Controllers\/UserController.php.html#223\">App\\Http\\Controllers\\UserController::login<\/a>"],[0,2,"<a href=\"Http\/Controllers\/UserController.php.html#252\">App\\Http\\Controllers\\UserController::logout<\/a>"],[0,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#15\">App\\Http\\Middleware\\Authenticate::redirectTo<\/a>"],[0,9,"<a href=\"Http\/Middleware\/RecaptchaMiddleware.php.html#17\">App\\Http\\Middleware\\RecaptchaMiddleware::handle<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#20\">App\\Http\\Middleware\\RedirectIfAuthenticated::handle<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/SetLocale.php.html#18\">App\\Http\\Middleware\\SetLocale::handle<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#14\">App\\Http\\Middleware\\TrustHosts::hosts<\/a>"],[0,1,"<a href=\"Http\/Requests\/CategoryRequest.php.html#15\">App\\Http\\Requests\\CategoryRequest::authorize<\/a>"],[0,4,"<a href=\"Http\/Requests\/CategoryRequest.php.html#25\">App\\Http\\Requests\\CategoryRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/CategoryRequest.php.html#56\">App\\Http\\Requests\\CategoryRequest::queryParameters<\/a>"],[0,1,"<a href=\"Http\/Requests\/EntryFileRequest.php.html#14\">App\\Http\\Requests\\EntryFileRequest::authorize<\/a>"],[0,2,"<a href=\"Http\/Requests\/EntryFileRequest.php.html#24\">App\\Http\\Requests\\EntryFileRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/EntryRequest.php.html#14\">App\\Http\\Requests\\EntryRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/EntryRequest.php.html#24\">App\\Http\\Requests\\EntryRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/EntryReviewRequest.php.html#14\">App\\Http\\Requests\\EntryReviewRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/EntryReviewRequest.php.html#24\">App\\Http\\Requests\\EntryReviewRequest::rules<\/a>"],[100,1,"<a href=\"Http\/Requests\/FeedBackRequest.php.html#14\">App\\Http\\Requests\\FeedBackRequest::authorize<\/a>"],[100,3,"<a href=\"Http\/Requests\/FeedBackRequest.php.html#24\">App\\Http\\Requests\\FeedBackRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/InstitutionRequest.php.html#15\">App\\Http\\Requests\\InstitutionRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/InstitutionRequest.php.html#25\">App\\Http\\Requests\\InstitutionRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/LinkCategoryRequest.php.html#14\">App\\Http\\Requests\\LinkCategoryRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/LinkCategoryRequest.php.html#24\">App\\Http\\Requests\\LinkCategoryRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/LinkRequest.php.html#14\">App\\Http\\Requests\\LinkRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/LinkRequest.php.html#24\">App\\Http\\Requests\\LinkRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/NewsRequest.php.html#15\">App\\Http\\Requests\\NewsRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/NewsRequest.php.html#25\">App\\Http\\Requests\\NewsRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/PageCategoryRequest.php.html#14\">App\\Http\\Requests\\PageCategoryRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/PageCategoryRequest.php.html#24\">App\\Http\\Requests\\PageCategoryRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/PageRequest.php.html#15\">App\\Http\\Requests\\PageRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/PageRequest.php.html#25\">App\\Http\\Requests\\PageRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/ReportRequest.php.html#16\">App\\Http\\Requests\\ReportRequest::authorize<\/a>"],[0,4,"<a href=\"Http\/Requests\/ReportRequest.php.html#26\">App\\Http\\Requests\\ReportRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/Request.php.html#15\">App\\Http\\Requests\\Request::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/Request.php.html#25\">App\\Http\\Requests\\Request::rules<\/a>"],[31.25,7,"<a href=\"Http\/Requests\/Request.php.html#30\">App\\Http\\Requests\\Request::makeOrderBy<\/a>"],[0,1,"<a href=\"Http\/Requests\/SectorRequest.php.html#15\">App\\Http\\Requests\\SectorRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/SectorRequest.php.html#25\">App\\Http\\Requests\\SectorRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/ServiceRequest.php.html#14\">App\\Http\\Requests\\ServiceRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/ServiceRequest.php.html#24\">App\\Http\\Requests\\ServiceRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/TagRequest.php.html#15\">App\\Http\\Requests\\TagRequest::authorize<\/a>"],[0,3,"<a href=\"Http\/Requests\/TagRequest.php.html#25\">App\\Http\\Requests\\TagRequest::rules<\/a>"],[0,1,"<a href=\"Models\/Category.php.html#63\">App\\Models\\Category::getAll<\/a>"],[0,3,"<a href=\"Models\/Category.php.html#87\">App\\Models\\Category::getValidationRules<\/a>"],[0,1,"<a href=\"Models\/Category.php.html#98\">App\\Models\\Category::sector<\/a>"],[0,1,"<a href=\"Models\/Category.php.html#103\">App\\Models\\Category::getSectorAttribute<\/a>"],[0,1,"<a href=\"Models\/Category.php.html#108\">App\\Models\\Category::services<\/a>"],[0,1,"<a href=\"Models\/Entry.php.html#53\">App\\Models\\Entry::getAll<\/a>"],[0,10,"<a href=\"Models\/Entry.php.html#105\">App\\Models\\Entry::status<\/a>"],[0,1,"<a href=\"Models\/Entry.php.html#118\">App\\Models\\Entry::user<\/a>"],[0,1,"<a href=\"Models\/Entry.php.html#123\">App\\Models\\Entry::service<\/a>"],[0,1,"<a href=\"Models\/Entry.php.html#128\">App\\Models\\Entry::files<\/a>"],[0,1,"<a href=\"Models\/EntryFile.php.html#39\">App\\Models\\EntryFile::boot<\/a>"],[0,1,"<a href=\"Models\/EntryFile.php.html#48\">App\\Models\\EntryFile::getAll<\/a>"],[0,2,"<a href=\"Models\/EntryFile.php.html#64\">App\\Models\\EntryFile::saveFile<\/a>"],[0,1,"<a href=\"Models\/EntryFile.php.html#85\">App\\Models\\EntryFile::entry<\/a>"],[0,1,"<a href=\"Models\/EntryReview.php.html#45\">App\\Models\\EntryReview::boot<\/a>"],[0,1,"<a href=\"Models\/EntryReview.php.html#54\">App\\Models\\EntryReview::getAll<\/a>"],[0,1,"<a href=\"Models\/EntryReview.php.html#88\">App\\Models\\EntryReview::user<\/a>"],[0,1,"<a href=\"Models\/EntryReview.php.html#93\">App\\Models\\EntryReview::entry<\/a>"],[56.52173913043478,1,"<a href=\"Models\/FeedBack.php.html#69\">App\\Models\\FeedBack::getAll<\/a>"],[71.42857142857143,4,"<a href=\"Models\/FeedBack.php.html#97\">App\\Models\\FeedBack::status<\/a>"],[100,1,"<a href=\"Models\/FeedBack.php.html#111\">App\\Models\\FeedBack::updatedBy<\/a>"],[100,2,"<a href=\"Models\/FeedBack.php.html#116\">App\\Models\\FeedBack::getStatusNameAttribute<\/a>"],[0,1,"<a href=\"Models\/Institution.php.html#71\">App\\Models\\Institution::getAll<\/a>"],[0,1,"<a href=\"Models\/Institution.php.html#91\">App\\Models\\Institution::services<\/a>"],[0,1,"<a href=\"Models\/Link.php.html#51\">App\\Models\\Link::getAll<\/a>"],[0,1,"<a href=\"Models\/Link.php.html#75\">App\\Models\\Link::category<\/a>"],[0,1,"<a href=\"Models\/LinkCategory.php.html#53\">App\\Models\\LinkCategory::getAll<\/a>"],[0,1,"<a href=\"Models\/LinkCategory.php.html#79\">App\\Models\\LinkCategory::parent<\/a>"],[0,1,"<a href=\"Models\/LinkCategory.php.html#84\">App\\Models\\LinkCategory::getParentAttribute<\/a>"],[0,1,"<a href=\"Models\/LinkCategory.php.html#89\">App\\Models\\LinkCategory::childs<\/a>"],[0,12,"<a href=\"Models\/LinkCategoryTranslation.php.html#37\">App\\Models\\LinkCategoryTranslation::tapActivity<\/a>"],[0,12,"<a href=\"Models\/LinkTranslation.php.html#37\">App\\Models\\LinkTranslation::tapActivity<\/a>"],[0,11,"<a href=\"Models\/Module.php.html#24\">App\\Models\\Module::getAll<\/a>"],[0,1,"<a href=\"Models\/Module.php.html#78\">App\\Models\\Module::parent<\/a>"],[0,1,"<a href=\"Models\/Module.php.html#83\">App\\Models\\Module::getParentAttribute<\/a>"],[0,1,"<a href=\"Models\/Module.php.html#88\">App\\Models\\Module::childs<\/a>"],[0,1,"<a href=\"Models\/Module.php.html#94\">App\\Models\\Module::roles<\/a>"],[0,1,"<a href=\"Models\/News.php.html#61\">App\\Models\\News::getAll<\/a>"],[0,1,"<a href=\"Models\/News.php.html#81\">App\\Models\\News::tags<\/a>"],[0,4,"<a href=\"Models\/News.php.html#88\">App\\Models\\News::setTags<\/a>"],[0,12,"<a href=\"Models\/NewsTranslation.php.html#44\">App\\Models\\NewsTranslation::tapActivity<\/a>"],[0,1,"<a href=\"Models\/Page.php.html#54\">App\\Models\\Page::getAll<\/a>"],[0,1,"<a href=\"Models\/Page.php.html#72\">App\\Models\\Page::category<\/a>"],[0,1,"<a href=\"Models\/PageCategory.php.html#47\">App\\Models\\PageCategory::getAll<\/a>"],[0,1,"<a href=\"Models\/PageCategory.php.html#67\">App\\Models\\PageCategory::parent<\/a>"],[0,1,"<a href=\"Models\/PageCategory.php.html#72\">App\\Models\\PageCategory::getParentAttribute<\/a>"],[0,1,"<a href=\"Models\/PageCategory.php.html#77\">App\\Models\\PageCategory::childs<\/a>"],[0,12,"<a href=\"Models\/PageCategoryTranslation.php.html#37\">App\\Models\\PageCategoryTranslation::tapActivity<\/a>"],[0,12,"<a href=\"Models\/PageTranslation.php.html#44\">App\\Models\\PageTranslation::tapActivity<\/a>"],[0,1,"<a href=\"Models\/Report.php.html#52\">App\\Models\\Report::getAll<\/a>"],[0,2,"<a href=\"Models\/Report.php.html#69\">App\\Models\\Report::saveFile<\/a>"],[0,6,"<a href=\"Models\/Role.php.html#46\">App\\Models\\Role::getOrderBy<\/a>"],[0,1,"<a href=\"Models\/Role.php.html#69\">App\\Models\\Role::getAll<\/a>"],[0,2,"<a href=\"Models\/Role.php.html#97\">App\\Models\\Role::getValidationRules<\/a>"],[0,1,"<a href=\"Models\/Role.php.html#104\">App\\Models\\Role::users<\/a>"],[0,1,"<a href=\"Models\/Role.php.html#109\">App\\Models\\Role::modules<\/a>"],[0,6,"<a href=\"Models\/Role.php.html#116\">App\\Models\\Role::setModules<\/a>"],[0,1,"<a href=\"Models\/RoleModule.php.html#48\">App\\Models\\RoleModule::getValidationRules<\/a>"],[0,1,"<a href=\"Models\/Sector.php.html#73\">App\\Models\\Sector::getAll<\/a>"],[0,1,"<a href=\"Models\/Sector.php.html#93\">App\\Models\\Sector::categories<\/a>"],[0,1,"<a href=\"Models\/Sector.php.html#100\">App\\Models\\Sector::services<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#58\">App\\Models\\Service::getAll<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#90\">App\\Models\\Service::sector<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#95\">App\\Models\\Service::getSectorAttribute<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#100\">App\\Models\\Service::category<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#106\">App\\Models\\Service::getCategoryAttribute<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#111\">App\\Models\\Service::institution<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#116\">App\\Models\\Service::getInstitutionAttribute<\/a>"],[0,1,"<a href=\"Models\/Service.php.html#121\">App\\Models\\Service::tags<\/a>"],[0,4,"<a href=\"Models\/Service.php.html#127\">App\\Models\\Service::setTags<\/a>"],[0,12,"<a href=\"Models\/ServiceTranslation.php.html#44\">App\\Models\\ServiceTranslation::tapActivity<\/a>"],[0,1,"<a href=\"Models\/Tag.php.html#48\">App\\Models\\Tag::getAll<\/a>"],[0,1,"<a href=\"Models\/TagRel.php.html#33\">App\\Models\\TagRel::getValidationRules<\/a>"],[0,6,"<a href=\"Models\/User.php.html#47\">App\\Models\\User::getOrderBy<\/a>"],[0,1,"<a href=\"Models\/User.php.html#70\">App\\Models\\User::getAll<\/a>"],[0,4,"<a href=\"Models\/User.php.html#101\">App\\Models\\User::getValidationRules<\/a>"],[0,1,"<a href=\"Models\/User.php.html#114\">App\\Models\\User::roles<\/a>"],[0,4,"<a href=\"Models\/User.php.html#119\">App\\Models\\User::setRoles<\/a>"],[0,1,"<a href=\"Models\/UserRole.php.html#46\">App\\Models\\UserRole::getValidationRules<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#14\">App\\Providers\\AppServiceProvider::register<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#24\">App\\Providers\\AppServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#24\">App\\Providers\\AuthServiceProvider::boot<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#15\">App\\Providers\\BroadcastServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#28\">App\\Providers\\EventServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#36\">App\\Providers\\RouteServiceProvider::boot<\/a>"],[100,2,"<a href=\"Providers\/RouteServiceProvider.php.html#57\">App\\Providers\\RouteServiceProvider::configureRateLimiting<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

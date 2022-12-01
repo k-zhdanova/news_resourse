@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for W:\domains\API\app\Models</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">W:\domains\API\app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Models</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Category.php.html#13">App\Models\Category</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entry.php.html#13">App\Models\Entry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryFile.php.html#10">App\Models\EntryFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryReview.php.html#10">App\Models\EntryReview</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Institution.php.html#13">App\Models\Institution</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Link.php.html#13">App\Models\Link</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkCategory.php.html#13">App\Models\LinkCategory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkCategoryTranslation.php.html#10">App\Models\LinkCategoryTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkTranslation.php.html#10">App\Models\LinkTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Module.php.html#9">App\Models\Module</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="News.php.html#13">App\Models\News</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsTranslation.php.html#10">App\Models\NewsTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Page.php.html#13">App\Models\Page</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageCategory.php.html#13">App\Models\PageCategory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageCategoryTranslation.php.html#10">App\Models\PageCategoryTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageTranslation.php.html#10">App\Models\PageTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Report.php.html#11">App\Models\Report</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Role.php.html#14">App\Models\Role</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoleModule.php.html#10">App\Models\RoleModule</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sector.php.html#15">App\Models\Sector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#13">App\Models\Service</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ServiceTranslation.php.html#10">App\Models\ServiceTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tag.php.html#14">App\Models\Tag</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TagRel.php.html#9">App\Models\TagRel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#17">App\Models\User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserRole.php.html#10">App\Models\UserRole</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FeedBack.php.html#11">App\Models\FeedBack</a></td><td class="text-right">64%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Role.php.html#14">App\Models\Role</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="User.php.html#17">App\Models\User</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Module.php.html#9">App\Models\Module</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Entry.php.html#13">App\Models\Entry</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="LinkCategoryTranslation.php.html#10">App\Models\LinkCategoryTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="LinkTranslation.php.html#10">App\Models\LinkTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="NewsTranslation.php.html#10">App\Models\NewsTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PageCategoryTranslation.php.html#10">App\Models\PageCategoryTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PageTranslation.php.html#10">App\Models\PageTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Service.php.html#13">App\Models\Service</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ServiceTranslation.php.html#10">App\Models\ServiceTranslation</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Category.php.html#13">App\Models\Category</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="News.php.html#13">App\Models\News</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="EntryFile.php.html#10">App\Models\EntryFile</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Report.php.html#11">App\Models\Report</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FeedBack.php.html#11">App\Models\FeedBack</a></td><td class="text-right">10</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Category.php.html#63"><abbr title="App\Models\Category::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Category.php.html#87"><abbr title="App\Models\Category::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Category.php.html#98"><abbr title="App\Models\Category::sector">sector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Category.php.html#103"><abbr title="App\Models\Category::getSectorAttribute">getSectorAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Category.php.html#108"><abbr title="App\Models\Category::services">services</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entry.php.html#53"><abbr title="App\Models\Entry::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entry.php.html#105"><abbr title="App\Models\Entry::status">status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entry.php.html#118"><abbr title="App\Models\Entry::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entry.php.html#123"><abbr title="App\Models\Entry::service">service</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entry.php.html#128"><abbr title="App\Models\Entry::files">files</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryFile.php.html#39"><abbr title="App\Models\EntryFile::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryFile.php.html#48"><abbr title="App\Models\EntryFile::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryFile.php.html#64"><abbr title="App\Models\EntryFile::saveFile">saveFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryFile.php.html#85"><abbr title="App\Models\EntryFile::entry">entry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryReview.php.html#45"><abbr title="App\Models\EntryReview::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryReview.php.html#54"><abbr title="App\Models\EntryReview::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryReview.php.html#88"><abbr title="App\Models\EntryReview::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EntryReview.php.html#93"><abbr title="App\Models\EntryReview::entry">entry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Institution.php.html#71"><abbr title="App\Models\Institution::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Institution.php.html#91"><abbr title="App\Models\Institution::services">services</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Link.php.html#51"><abbr title="App\Models\Link::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Link.php.html#75"><abbr title="App\Models\Link::category">category</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkCategory.php.html#53"><abbr title="App\Models\LinkCategory::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkCategory.php.html#79"><abbr title="App\Models\LinkCategory::parent">parent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkCategory.php.html#84"><abbr title="App\Models\LinkCategory::getParentAttribute">getParentAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkCategory.php.html#89"><abbr title="App\Models\LinkCategory::childs">childs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkCategoryTranslation.php.html#37"><abbr title="App\Models\LinkCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LinkTranslation.php.html#37"><abbr title="App\Models\LinkTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Module.php.html#24"><abbr title="App\Models\Module::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Module.php.html#78"><abbr title="App\Models\Module::parent">parent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Module.php.html#83"><abbr title="App\Models\Module::getParentAttribute">getParentAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Module.php.html#88"><abbr title="App\Models\Module::childs">childs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Module.php.html#94"><abbr title="App\Models\Module::roles">roles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="News.php.html#61"><abbr title="App\Models\News::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="News.php.html#81"><abbr title="App\Models\News::tags">tags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="News.php.html#88"><abbr title="App\Models\News::setTags">setTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewsTranslation.php.html#44"><abbr title="App\Models\NewsTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Page.php.html#54"><abbr title="App\Models\Page::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Page.php.html#72"><abbr title="App\Models\Page::category">category</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageCategory.php.html#47"><abbr title="App\Models\PageCategory::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageCategory.php.html#67"><abbr title="App\Models\PageCategory::parent">parent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageCategory.php.html#72"><abbr title="App\Models\PageCategory::getParentAttribute">getParentAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageCategory.php.html#77"><abbr title="App\Models\PageCategory::childs">childs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageCategoryTranslation.php.html#37"><abbr title="App\Models\PageCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PageTranslation.php.html#44"><abbr title="App\Models\PageTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Report.php.html#52"><abbr title="App\Models\Report::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Report.php.html#69"><abbr title="App\Models\Report::saveFile">saveFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Role.php.html#46"><abbr title="App\Models\Role::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Role.php.html#69"><abbr title="App\Models\Role::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Role.php.html#97"><abbr title="App\Models\Role::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Role.php.html#104"><abbr title="App\Models\Role::users">users</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Role.php.html#109"><abbr title="App\Models\Role::modules">modules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Role.php.html#116"><abbr title="App\Models\Role::setModules">setModules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoleModule.php.html#48"><abbr title="App\Models\RoleModule::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sector.php.html#73"><abbr title="App\Models\Sector::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sector.php.html#93"><abbr title="App\Models\Sector::categories">categories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sector.php.html#100"><abbr title="App\Models\Sector::services">services</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#58"><abbr title="App\Models\Service::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#90"><abbr title="App\Models\Service::sector">sector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#95"><abbr title="App\Models\Service::getSectorAttribute">getSectorAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#100"><abbr title="App\Models\Service::category">category</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#106"><abbr title="App\Models\Service::getCategoryAttribute">getCategoryAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#111"><abbr title="App\Models\Service::institution">institution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#116"><abbr title="App\Models\Service::getInstitutionAttribute">getInstitutionAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#121"><abbr title="App\Models\Service::tags">tags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service.php.html#127"><abbr title="App\Models\Service::setTags">setTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ServiceTranslation.php.html#44"><abbr title="App\Models\ServiceTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Tag.php.html#48"><abbr title="App\Models\Tag::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TagRel.php.html#33"><abbr title="App\Models\TagRel::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#47"><abbr title="App\Models\User::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#70"><abbr title="App\Models\User::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#101"><abbr title="App\Models\User::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#114"><abbr title="App\Models\User::roles">roles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#119"><abbr title="App\Models\User::setRoles">setRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserRole.php.html#46"><abbr title="App\Models\UserRole::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FeedBack.php.html#69"><abbr title="App\Models\FeedBack::getAll">getAll</abbr></a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="FeedBack.php.html#97"><abbr title="App\Models\FeedBack::status">status</abbr></a></td><td class="text-right">71%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="LinkCategoryTranslation.php.html#37"><abbr title="App\Models\LinkCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="LinkTranslation.php.html#37"><abbr title="App\Models\LinkTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="NewsTranslation.php.html#44"><abbr title="App\Models\NewsTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PageCategoryTranslation.php.html#37"><abbr title="App\Models\PageCategoryTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PageTranslation.php.html#44"><abbr title="App\Models\PageTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ServiceTranslation.php.html#44"><abbr title="App\Models\ServiceTranslation::tapActivity">tapActivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Module.php.html#24"><abbr title="App\Models\Module::getAll">getAll</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Entry.php.html#105"><abbr title="App\Models\Entry::status">status</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Role.php.html#46"><abbr title="App\Models\Role::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Role.php.html#116"><abbr title="App\Models\Role::setModules">setModules</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="User.php.html#47"><abbr title="App\Models\User::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="News.php.html#88"><abbr title="App\Models\News::setTags">setTags</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service.php.html#127"><abbr title="App\Models\Service::setTags">setTags</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="User.php.html#101"><abbr title="App\Models\User::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="User.php.html#119"><abbr title="App\Models\User::setRoles">setRoles</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Category.php.html#87"><abbr title="App\Models\Category::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EntryFile.php.html#64"><abbr title="App\Models\EntryFile::saveFile">saveFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Report.php.html#69"><abbr title="App\Models\Report::saveFile">saveFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Role.php.html#97"><abbr title="App\Models\Role::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FeedBack.php.html#97"><abbr title="App\Models\FeedBack::status">status</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.10</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.14</a> and <a href="https://phpunit.de/">PHPUnit 9.5.13</a> at Wed Feb 23 15:51:02 UTC 2022.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([26,0,0,0,0,0,0,1,0,0,0,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([75,0,0,0,0,0,1,0,1,0,0,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"Category.php.html#13\">App\\Models\\Category<\/a>"],[100,0,"<a href=\"CategoryTranslation.php.html#9\">App\\Models\\CategoryTranslation<\/a>"],[0,14,"<a href=\"Entry.php.html#13\">App\\Models\\Entry<\/a>"],[0,5,"<a href=\"EntryFile.php.html#10\">App\\Models\\EntryFile<\/a>"],[0,4,"<a href=\"EntryReview.php.html#10\">App\\Models\\EntryReview<\/a>"],[64.70588235294117,8,"<a href=\"FeedBack.php.html#11\">App\\Models\\FeedBack<\/a>"],[0,2,"<a href=\"Institution.php.html#13\">App\\Models\\Institution<\/a>"],[100,0,"<a href=\"InstitutionTranslation.php.html#9\">App\\Models\\InstitutionTranslation<\/a>"],[0,2,"<a href=\"Link.php.html#13\">App\\Models\\Link<\/a>"],[0,4,"<a href=\"LinkCategory.php.html#13\">App\\Models\\LinkCategory<\/a>"],[0,12,"<a href=\"LinkCategoryTranslation.php.html#10\">App\\Models\\LinkCategoryTranslation<\/a>"],[0,12,"<a href=\"LinkTranslation.php.html#10\">App\\Models\\LinkTranslation<\/a>"],[0,15,"<a href=\"Module.php.html#9\">App\\Models\\Module<\/a>"],[0,6,"<a href=\"News.php.html#13\">App\\Models\\News<\/a>"],[0,12,"<a href=\"NewsTranslation.php.html#10\">App\\Models\\NewsTranslation<\/a>"],[0,2,"<a href=\"Page.php.html#13\">App\\Models\\Page<\/a>"],[0,4,"<a href=\"PageCategory.php.html#13\">App\\Models\\PageCategory<\/a>"],[0,12,"<a href=\"PageCategoryTranslation.php.html#10\">App\\Models\\PageCategoryTranslation<\/a>"],[0,12,"<a href=\"PageTranslation.php.html#10\">App\\Models\\PageTranslation<\/a>"],[0,3,"<a href=\"Report.php.html#11\">App\\Models\\Report<\/a>"],[0,17,"<a href=\"Role.php.html#14\">App\\Models\\Role<\/a>"],[0,1,"<a href=\"RoleModule.php.html#10\">App\\Models\\RoleModule<\/a>"],[0,3,"<a href=\"Sector.php.html#15\">App\\Models\\Sector<\/a>"],[100,0,"<a href=\"SectorTranslation.php.html#9\">App\\Models\\SectorTranslation<\/a>"],[0,12,"<a href=\"Service.php.html#13\">App\\Models\\Service<\/a>"],[0,12,"<a href=\"ServiceTranslation.php.html#10\">App\\Models\\ServiceTranslation<\/a>"],[0,1,"<a href=\"Tag.php.html#14\">App\\Models\\Tag<\/a>"],[0,1,"<a href=\"TagRel.php.html#9\">App\\Models\\TagRel<\/a>"],[100,0,"<a href=\"TagTranslation.php.html#10\">App\\Models\\TagTranslation<\/a>"],[0,16,"<a href=\"User.php.html#17\">App\\Models\\User<\/a>"],[0,1,"<a href=\"UserRole.php.html#10\">App\\Models\\UserRole<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Category.php.html#63\">App\\Models\\Category::getAll<\/a>"],[0,3,"<a href=\"Category.php.html#87\">App\\Models\\Category::getValidationRules<\/a>"],[0,1,"<a href=\"Category.php.html#98\">App\\Models\\Category::sector<\/a>"],[0,1,"<a href=\"Category.php.html#103\">App\\Models\\Category::getSectorAttribute<\/a>"],[0,1,"<a href=\"Category.php.html#108\">App\\Models\\Category::services<\/a>"],[0,1,"<a href=\"Entry.php.html#53\">App\\Models\\Entry::getAll<\/a>"],[0,10,"<a href=\"Entry.php.html#105\">App\\Models\\Entry::status<\/a>"],[0,1,"<a href=\"Entry.php.html#118\">App\\Models\\Entry::user<\/a>"],[0,1,"<a href=\"Entry.php.html#123\">App\\Models\\Entry::service<\/a>"],[0,1,"<a href=\"Entry.php.html#128\">App\\Models\\Entry::files<\/a>"],[0,1,"<a href=\"EntryFile.php.html#39\">App\\Models\\EntryFile::boot<\/a>"],[0,1,"<a href=\"EntryFile.php.html#48\">App\\Models\\EntryFile::getAll<\/a>"],[0,2,"<a href=\"EntryFile.php.html#64\">App\\Models\\EntryFile::saveFile<\/a>"],[0,1,"<a href=\"EntryFile.php.html#85\">App\\Models\\EntryFile::entry<\/a>"],[0,1,"<a href=\"EntryReview.php.html#45\">App\\Models\\EntryReview::boot<\/a>"],[0,1,"<a href=\"EntryReview.php.html#54\">App\\Models\\EntryReview::getAll<\/a>"],[0,1,"<a href=\"EntryReview.php.html#88\">App\\Models\\EntryReview::user<\/a>"],[0,1,"<a href=\"EntryReview.php.html#93\">App\\Models\\EntryReview::entry<\/a>"],[56.52173913043478,1,"<a href=\"FeedBack.php.html#69\">App\\Models\\FeedBack::getAll<\/a>"],[71.42857142857143,4,"<a href=\"FeedBack.php.html#97\">App\\Models\\FeedBack::status<\/a>"],[100,1,"<a href=\"FeedBack.php.html#111\">App\\Models\\FeedBack::updatedBy<\/a>"],[100,2,"<a href=\"FeedBack.php.html#116\">App\\Models\\FeedBack::getStatusNameAttribute<\/a>"],[0,1,"<a href=\"Institution.php.html#71\">App\\Models\\Institution::getAll<\/a>"],[0,1,"<a href=\"Institution.php.html#91\">App\\Models\\Institution::services<\/a>"],[0,1,"<a href=\"Link.php.html#51\">App\\Models\\Link::getAll<\/a>"],[0,1,"<a href=\"Link.php.html#75\">App\\Models\\Link::category<\/a>"],[0,1,"<a href=\"LinkCategory.php.html#53\">App\\Models\\LinkCategory::getAll<\/a>"],[0,1,"<a href=\"LinkCategory.php.html#79\">App\\Models\\LinkCategory::parent<\/a>"],[0,1,"<a href=\"LinkCategory.php.html#84\">App\\Models\\LinkCategory::getParentAttribute<\/a>"],[0,1,"<a href=\"LinkCategory.php.html#89\">App\\Models\\LinkCategory::childs<\/a>"],[0,12,"<a href=\"LinkCategoryTranslation.php.html#37\">App\\Models\\LinkCategoryTranslation::tapActivity<\/a>"],[0,12,"<a href=\"LinkTranslation.php.html#37\">App\\Models\\LinkTranslation::tapActivity<\/a>"],[0,11,"<a href=\"Module.php.html#24\">App\\Models\\Module::getAll<\/a>"],[0,1,"<a href=\"Module.php.html#78\">App\\Models\\Module::parent<\/a>"],[0,1,"<a href=\"Module.php.html#83\">App\\Models\\Module::getParentAttribute<\/a>"],[0,1,"<a href=\"Module.php.html#88\">App\\Models\\Module::childs<\/a>"],[0,1,"<a href=\"Module.php.html#94\">App\\Models\\Module::roles<\/a>"],[0,1,"<a href=\"News.php.html#61\">App\\Models\\News::getAll<\/a>"],[0,1,"<a href=\"News.php.html#81\">App\\Models\\News::tags<\/a>"],[0,4,"<a href=\"News.php.html#88\">App\\Models\\News::setTags<\/a>"],[0,12,"<a href=\"NewsTranslation.php.html#44\">App\\Models\\NewsTranslation::tapActivity<\/a>"],[0,1,"<a href=\"Page.php.html#54\">App\\Models\\Page::getAll<\/a>"],[0,1,"<a href=\"Page.php.html#72\">App\\Models\\Page::category<\/a>"],[0,1,"<a href=\"PageCategory.php.html#47\">App\\Models\\PageCategory::getAll<\/a>"],[0,1,"<a href=\"PageCategory.php.html#67\">App\\Models\\PageCategory::parent<\/a>"],[0,1,"<a href=\"PageCategory.php.html#72\">App\\Models\\PageCategory::getParentAttribute<\/a>"],[0,1,"<a href=\"PageCategory.php.html#77\">App\\Models\\PageCategory::childs<\/a>"],[0,12,"<a href=\"PageCategoryTranslation.php.html#37\">App\\Models\\PageCategoryTranslation::tapActivity<\/a>"],[0,12,"<a href=\"PageTranslation.php.html#44\">App\\Models\\PageTranslation::tapActivity<\/a>"],[0,1,"<a href=\"Report.php.html#52\">App\\Models\\Report::getAll<\/a>"],[0,2,"<a href=\"Report.php.html#69\">App\\Models\\Report::saveFile<\/a>"],[0,6,"<a href=\"Role.php.html#46\">App\\Models\\Role::getOrderBy<\/a>"],[0,1,"<a href=\"Role.php.html#69\">App\\Models\\Role::getAll<\/a>"],[0,2,"<a href=\"Role.php.html#97\">App\\Models\\Role::getValidationRules<\/a>"],[0,1,"<a href=\"Role.php.html#104\">App\\Models\\Role::users<\/a>"],[0,1,"<a href=\"Role.php.html#109\">App\\Models\\Role::modules<\/a>"],[0,6,"<a href=\"Role.php.html#116\">App\\Models\\Role::setModules<\/a>"],[0,1,"<a href=\"RoleModule.php.html#48\">App\\Models\\RoleModule::getValidationRules<\/a>"],[0,1,"<a href=\"Sector.php.html#73\">App\\Models\\Sector::getAll<\/a>"],[0,1,"<a href=\"Sector.php.html#93\">App\\Models\\Sector::categories<\/a>"],[0,1,"<a href=\"Sector.php.html#100\">App\\Models\\Sector::services<\/a>"],[0,1,"<a href=\"Service.php.html#58\">App\\Models\\Service::getAll<\/a>"],[0,1,"<a href=\"Service.php.html#90\">App\\Models\\Service::sector<\/a>"],[0,1,"<a href=\"Service.php.html#95\">App\\Models\\Service::getSectorAttribute<\/a>"],[0,1,"<a href=\"Service.php.html#100\">App\\Models\\Service::category<\/a>"],[0,1,"<a href=\"Service.php.html#106\">App\\Models\\Service::getCategoryAttribute<\/a>"],[0,1,"<a href=\"Service.php.html#111\">App\\Models\\Service::institution<\/a>"],[0,1,"<a href=\"Service.php.html#116\">App\\Models\\Service::getInstitutionAttribute<\/a>"],[0,1,"<a href=\"Service.php.html#121\">App\\Models\\Service::tags<\/a>"],[0,4,"<a href=\"Service.php.html#127\">App\\Models\\Service::setTags<\/a>"],[0,12,"<a href=\"ServiceTranslation.php.html#44\">App\\Models\\ServiceTranslation::tapActivity<\/a>"],[0,1,"<a href=\"Tag.php.html#48\">App\\Models\\Tag::getAll<\/a>"],[0,1,"<a href=\"TagRel.php.html#33\">App\\Models\\TagRel::getValidationRules<\/a>"],[0,6,"<a href=\"User.php.html#47\">App\\Models\\User::getOrderBy<\/a>"],[0,1,"<a href=\"User.php.html#70\">App\\Models\\User::getAll<\/a>"],[0,4,"<a href=\"User.php.html#101\">App\\Models\\User::getValidationRules<\/a>"],[0,1,"<a href=\"User.php.html#114\">App\\Models\\User::roles<\/a>"],[0,4,"<a href=\"User.php.html#119\">App\\Models\\User::setRoles<\/a>"],[0,1,"<a href=\"UserRole.php.html#46\">App\\Models\\UserRole::getValidationRules<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
